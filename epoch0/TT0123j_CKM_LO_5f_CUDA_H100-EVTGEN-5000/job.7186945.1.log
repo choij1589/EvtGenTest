@@ -1,0 +1,43 @@
+000 (7186945.001.000) 08/25 10:08:49 Job submitted from host: <137.138.44.55:9618?addrs=137.138.44.55-9618+[2001-1458-d00-1a--48]-9618&alias=bigbird17.cern.ch&noUDP&sock=schedd_23962_8474>
+...
+040 (7186945.001.000) 08/25 10:14:10 Started transferring input files
+	Transferring to host: <188.185.92.231:9618?addrs=188.185.92.231-9618+[2001-1458-d00-6c--100-38b]-9618&alias=b9g57n1521.cern.ch&noUDP&sock=slot1_1_16420_2015_107365>
+...
+040 (7186945.001.000) 08/25 10:14:10 Finished transferring input files
+...
+001 (7186945.001.000) 08/25 10:14:11 Job executing on host: <188.185.92.231:9618?addrs=188.185.92.231-9618+[2001-1458-d00-6c--100-38b]-9618&alias=b9g57n1521.cern.ch&noUDP&sock=startd_16008_bc28>
+	SlotName: slot1_1@b9g57n1521.cern.ch
+	AvailableGPUs = { GPUs_GPU_a841436e }
+	CondorScratchDir = "/pool/condor/dir_86586"
+	Cpus = 1
+	Disk = 320455
+	GPUs = 1
+	GPUs_GPU_a841436e = [ GlobalMemoryMb = 40326; MaxSupportedVersion = 12040; DriverVersion = 12.4; DeviceUuid = "a841436e-1cae-5da0-0a02-7b844fb8ca33"; DeviceName = "NVIDIA A100-PCIE-40GB"; CoresPerCU = 64; ECCEnabled = true; ComputeUnits = 108; ClockMhz = 1410.0; Id = "GPU-a841436e"; DevicePciBusId = "0000:06:00.0"; Capability = 8.0 ]
+	Memory = 2000
+...
+006 (7186945.001.000) 08/25 10:14:20 Image size of job updated: 4597952
+	246  -  MemoryUsage of job (MB)
+	251100  -  ResidentSetSize of job (KB)
+...
+040 (7186945.001.000) 08/25 10:14:37 Started transferring output files
+...
+040 (7186945.001.000) 08/25 10:14:37 Finished transferring output files
+...
+005 (7186945.001.000) 08/25 10:14:37 Job terminated.
+	(1) Normal termination (return value 50)
+		Usr 0 00:08:32, Sys 0 00:04:05  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:08:32, Sys 0 00:04:05  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	41166  -  Run Bytes Sent By Job
+	2970  -  Run Bytes Received By Job
+	41166  -  Total Bytes Sent By Job
+	2970  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :     8376        3    320455 
+	   Gpus (Average)       :                 1         1 "GPU-a841436e"
+	   Memory (MB)          :      246     2000      2000 
+
+	Job terminated of its own accord at 2024-08-25T08:14:37Z with exit-code 50.
+...

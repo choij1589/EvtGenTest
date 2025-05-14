@@ -1,0 +1,64 @@
+000 (7216719.006.000) 09/18 03:05:34 Job submitted from host: <137.138.44.55:9618?addrs=137.138.44.55-9618+[2001-1458-d00-1a--48]-9618&alias=bigbird17.cern.ch&noUDP&sock=schedd_1981_6134>
+...
+040 (7216719.006.000) 09/18 04:04:48 Started transferring input files
+	Transferring to host: <128.142.248.123:9618?addrs=128.142.248.123-9618+[2001-1458-301-73--100-16b]-9618&alias=b9g23p2657.cern.ch&noUDP&sock=slot1_42_443391_d207_18867>
+...
+040 (7216719.006.000) 09/18 04:04:48 Finished transferring input files
+...
+001 (7216719.006.000) 09/18 04:04:49 Job executing on host: <128.142.248.123:9618?addrs=128.142.248.123-9618+[2001-1458-301-73--100-16b]-9618&alias=b9g23p2657.cern.ch&noUDP&sock=startd_7091_6a27>
+	SlotName: slot1_42@b9g23p2657.cern.ch
+	CondorScratchDir = "/pool/condor/dir_474782"
+	Cpus = 1
+	Disk = 3079392
+	Memory = 2000
+...
+006 (7216719.006.000) 09/18 04:04:58 Image size of job updated: 527592
+	515  -  MemoryUsage of job (MB)
+	527312  -  ResidentSetSize of job (KB)
+...
+006 (7216719.006.000) 09/18 04:09:58 Image size of job updated: 928032
+	704  -  MemoryUsage of job (MB)
+	720416  -  ResidentSetSize of job (KB)
+...
+006 (7216719.006.000) 09/19 12:18:12 Image size of job updated: 928032
+	705  -  MemoryUsage of job (MB)
+	721028  -  ResidentSetSize of job (KB)
+...
+006 (7216719.006.000) 09/19 14:18:26 Image size of job updated: 928032
+	705  -  MemoryUsage of job (MB)
+	721068  -  ResidentSetSize of job (KB)
+...
+006 (7216719.006.000) 09/19 14:23:26 Image size of job updated: 928032
+	705  -  MemoryUsage of job (MB)
+	721460  -  ResidentSetSize of job (KB)
+...
+006 (7216719.006.000) 09/19 14:28:27 Image size of job updated: 928032
+	705  -  MemoryUsage of job (MB)
+	721864  -  ResidentSetSize of job (KB)
+...
+006 (7216719.006.000) 09/19 14:33:27 Image size of job updated: 928032
+	706  -  MemoryUsage of job (MB)
+	722148  -  ResidentSetSize of job (KB)
+...
+022 (7216719.006.000) 09/26 17:54:02 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_42@b9g23p2657.cern.ch <128.142.248.123:9618?addrs=128.142.248.123-9618+[2001-1458-301-73--100-16b]-9618&alias=b9g23p2657.cern.ch&noUDP&sock=startd_7091_6a27>
+...
+023 (7216719.006.000) 09/26 17:54:53 Job reconnected to slot1_42@b9g23p2657.cern.ch
+    startd address: <128.142.248.123:9618?addrs=128.142.248.123-9618+[2001-1458-301-73--100-16b]-9618&alias=b9g23p2657.cern.ch&noUDP&sock=startd_7091_6a27>
+    starter address: <128.142.248.123:9618?addrs=128.142.248.123-9618+[2001-1458-301-73--100-16b]-9618&alias=b9g23p2657.cern.ch&noUDP&sock=slot1_42_443391_d207_18867>
+...
+004 (7216719.006.000) 10/02 17:26:44 Job was evicted.
+	(0) CPU times
+		Usr 14 04:24:45, Sys 0 00:53:08  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	7971  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.02        1         1 
+	   Disk (KB)            : 1543724     1543724   3079392 
+	   Memory (MB)          :     733        2000      2000 
+...
+009 (7216719.006.000) 10/02 17:26:44 Job was aborted.
+	via condor_rm (by user choij)
+...

@@ -1,0 +1,56 @@
+000 (7217801.003.000) 09/23 13:21:25 Job submitted from host: <137.138.44.55:9618?addrs=137.138.44.55-9618+[2001-1458-d00-1a--48]-9618&alias=bigbird17.cern.ch&noUDP&sock=schedd_1981_6134>
+...
+040 (7217801.003.000) 09/24 04:50:19 Started transferring input files
+	Transferring to host: <188.185.190.109:9618?addrs=188.185.190.109-9618+[2001-1458-d03-b--100-300]-9618&alias=b9pgpun014.cern.ch&noUDP&sock=slot1_2_3185867_4229_16606>
+...
+040 (7217801.003.000) 09/24 04:50:19 Finished transferring input files
+...
+001 (7217801.003.000) 09/24 04:50:20 Job executing on host: <188.185.190.109:9618?addrs=188.185.190.109-9618+[2001-1458-d03-b--100-300]-9618&alias=b9pgpun014.cern.ch&noUDP&sock=startd_215167_3e60>
+	SlotName: slot1_2@b9pgpun014.cern.ch
+	AvailableGPUs = { GPUs_GPU_45f32e65 }
+	CondorScratchDir = "/pool/condor/dir_3897255"
+	Cpus = 1
+	Disk = 6875747
+	GPUs = 1
+	GPUs_GPU_45f32e65 = [ GlobalMemoryMb = 95235; MaxSupportedVersion = 12040; DriverVersion = 12.4; DeviceName = "NVIDIA H100 NVL"; CoresPerCU = 128; ECCEnabled = true; ComputeUnits = 132; ClockMhz = 1785.0; Id = "GPU-45f32e65"; Capability = 9.0; DevicePciBusId = "0000:3B:00.0"; DeviceUuid = "45f32e65-fddf-18a1-63a5-d7c14d13255c" ]
+	Memory = 2000
+...
+006 (7217801.003.000) 09/24 04:50:29 Image size of job updated: 2424784
+	2368  -  MemoryUsage of job (MB)
+	2424724  -  ResidentSetSize of job (KB)
+...
+006 (7217801.003.000) 09/24 04:55:29 Image size of job updated: 2433932
+	2375  -  MemoryUsage of job (MB)
+	2431296  -  ResidentSetSize of job (KB)
+...
+006 (7217801.003.000) 09/24 05:40:35 Image size of job updated: 2639356
+	2566  -  MemoryUsage of job (MB)
+	2627352  -  ResidentSetSize of job (KB)
+...
+006 (7217801.003.000) 09/24 05:45:22 Image size of job updated: 5390912
+	2566  -  MemoryUsage of job (MB)
+	2627352  -  ResidentSetSize of job (KB)
+...
+040 (7217801.003.000) 09/24 05:45:22 Started transferring output files
+...
+040 (7217801.003.000) 09/24 05:45:22 Finished transferring output files
+...
+005 (7217801.003.000) 09/24 05:45:22 Job terminated.
+	(1) Normal termination (return value 50)
+		Usr 0 00:54:27, Sys 0 00:00:50  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:54:27, Sys 0 00:00:50  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	58041  -  Run Bytes Sent By Job
+	1414  -  Run Bytes Received By Job
+	58041  -  Total Bytes Sent By Job
+	1414  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated Assigned
+	   Cpus                 :       0.93        1         1 
+	   Disk (KB)            : 2438971           2   6875747 
+	   Gpus (Average)       :       0.00        1         1 "GPU-45f32e65"
+	   GpusMemory (MB)      :     599                       
+	   Memory (MB)          :    2566        2000      2000 
+
+	Job terminated of its own accord at 2024-09-24T03:45:22Z with exit-code 50.
+...

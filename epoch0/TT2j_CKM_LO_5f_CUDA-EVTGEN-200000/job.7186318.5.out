@@ -1,0 +1,429 @@
+CPU Information:
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              16
+On-line CPU(s) list: 0-15
+Thread(s) per core:  1
+Core(s) per socket:  1
+Socket(s):           16
+NUMA node(s):        1
+Vendor ID:           AuthenticAMD
+CPU family:          25
+Model:               1
+Model name:          AMD EPYC 7313 16-Core Processor
+Stepping:            1
+CPU MHz:             3000.168
+BogoMIPS:            6000.33
+Virtualization:      AMD-V
+L1d cache:           64K
+L1i cache:           64K
+L2 cache:            512K
+L3 cache:            16384K
+NUMA node0 CPU(s):   0-15
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw perfctr_core invpcid_single ssbd ibrs ibpb stibp vmmcall fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr wbnoinvd arat npt lbrv nrip_save tsc_scale vmcb_clean pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid arch_capabilities
+GPU Information:
+lspci command not found, unable to check GPU.
+System Architecture:
+x86_64
+Number of Threads:
+1
+Vectorization Support:
+Supported vectorization extensions: sse sse2 ssse3 sse4_1 sse4_2 avx avx2
+/srv/work
+%MSG-MG5 number of events requested = 200000
+%MSG-MG5 random seed used for the run = 1
+%MSG-MG5 number of cpus = 1
+%MSG-MG5 SCRAM_ARCH version = el8_amd64_gcc12
+%MSG-MG5 CMSSW version = CMSSW_14_0_9
+Running MG5_aMC for the 1 time
+produced_lhe  0 nevt  200000 submitting_event  200000  remaining_event  200000
+run.sh 200000 10
+Now generating 200000 events with random seed 10 and granularity 1
+************************************************************
+*                                                          *
+*                      W E L C O M E to                    *
+*             M A D G R A P H 5 _ a M C @ N L O            *
+*                      M A D E V E N T                     *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 3.5.3_lo_vect                            *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*                                                          *
+************************************************************
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+INFO: load configuration from /srv/work/mgbasedir/input/mg5_configuration.txt  
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+No valid eps viewer found. Please set in ./input/mg5_configuration.txt
+No valid web browser found. Please set in ./input/mg5_configuration.txt
+WRITE GRIDCARD /srv/work/process/madevent
+generate 200000 events
+[1;34mThe parameter ptonium is not supported anymore. This parameter will be ignored.[0m
+[1;34mThe parameter etaonium is not supported anymore. This parameter will be ignored.[0m
+P0_gg_ttxgg
+P0_gg_ttxuux
+P0_gu_ttxgu
+P0_gux_ttxgux
+P0_uux_ttxgg
+P0_uu_ttxuu
+P0_uux_ttxuux
+P0_uxux_ttxuxux
+P0_uc_ttxuc
+P0_uux_ttxccx
+P0_ucx_ttxucx
+P0_uxcx_ttxuxcx
+P0_uxb_ttxbux
+Using random number seed offset = 10
+INFO: Generating 200000.0 unweighted events. 
+sum of cpu time of last step: 2h02m57s
+INFO: need to improve 164 channels 
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+combine_events
+[1;34mThe parameter ptonium is not supported anymore. This parameter will be ignored.[0m
+[1;34mThe parameter etaonium is not supported anymore. This parameter will be ignored.[0m
+store_events
+  === Results Summary for run: GridRun_10 tag: tag_1 ===
+
+     Cross-section :   0 +- 0 pb
+     Nb of events :  200000
+ 
+decay_events -from_cards
+DONE
+write ./events.lhe.gz
+run 1 finished, total number of produced events: 200000/200000
+
+-rw-r--r--. 1 choij zh 50713377 Aug 23 03:04 events_1.lhe.gz
+run finished, produced number of events:
+200000
+/srv/work/process/madevent /srv/work
+************************************************************
+*                                                          *
+*                      W E L C O M E to                    *
+*             M A D G R A P H 5 _ a M C @ N L O            *
+*                      M A D E V E N T                     *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 3.5.3_lo_vect                            *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*                                                          *
+************************************************************
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+INFO: load configuration from /srv/work/mgbasedir/input/mg5_configuration.txt  
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+No valid eps viewer found. Please set in ./input/mg5_configuration.txt
+No valid web browser found. Please set in ./input/mg5_configuration.txt
+madevent>INFO: Running Systematics computation 
+[1;34mThe parameter ptonium is not supported anymore. This parameter will be ignored.[0m
+[1;34mThe parameter etaonium is not supported anymore. This parameter will be ignored.[0m
+[1;34mThe parameter ptonium is not supported anymore. This parameter will be ignored.[0m
+[1;34mThe parameter etaonium is not supported anymore. This parameter will be ignored.[0m
+INFO: # Events generated with PDF: NNPDF31_nnlo_as_0118_mc_hessian_pdfas (325300) 
+INFO: # Will Compute 926 weights per event. 
+INFO: # Currently at event 0 [elapsed time: 0.045 s] 
+INFO: # Currently at event 2500 [elapsed time: 58 s] 
+INFO: # Currently at event 5000 [elapsed time: 1.1e+02 s] 
+INFO: # Currently at event 7500 [elapsed time: 1.7e+02 s] 
+INFO: # Currently at event 10000 [elapsed time: 2.3e+02 s] 
+INFO: # Currently at event 12500 [elapsed time: 2.9e+02 s] 
+INFO: # Currently at event 15000 [elapsed time: 3.4e+02 s] 
+INFO: # Currently at event 17500 [elapsed time: 4e+02 s] 
+INFO: # Currently at event 20000 [elapsed time: 4.6e+02 s] 
+INFO: # Currently at event 22500 [elapsed time: 5.1e+02 s] 
+INFO: # Currently at event 25000 [elapsed time: 5.7e+02 s] 
+INFO: # Currently at event 27500 [elapsed time: 6.3e+02 s] 
+INFO: # Currently at event 30000 [elapsed time: 6.9e+02 s] 
+INFO: # Currently at event 32500 [elapsed time: 7.5e+02 s] 
+INFO: # Currently at event 35000 [elapsed time: 8.1e+02 s] 
+INFO: # Currently at event 37500 [elapsed time: 8.7e+02 s] 
+INFO: # Currently at event 40000 [elapsed time: 9.3e+02 s] 
+INFO: # Currently at event 42500 [elapsed time: 9.9e+02 s] 
+INFO: # Currently at event 45000 [elapsed time: 1e+03 s] 
+INFO: # Currently at event 47500 [elapsed time: 1.1e+03 s] 
+INFO: # Currently at event 50000 [elapsed time: 1.2e+03 s] 
+INFO: # Currently at event 52500 [elapsed time: 1.2e+03 s] 
+INFO: # Currently at event 55000 [elapsed time: 1.3e+03 s] 
+INFO: # Currently at event 57500 [elapsed time: 1.3e+03 s] 
+INFO: # Currently at event 60000 [elapsed time: 1.4e+03 s] 
+INFO: # Currently at event 62500 [elapsed time: 1.4e+03 s] 
+INFO: # Currently at event 65000 [elapsed time: 1.5e+03 s] 
+INFO: # Currently at event 67500 [elapsed time: 1.6e+03 s] 
+INFO: # Currently at event 70000 [elapsed time: 1.6e+03 s] 
+INFO: # Currently at event 72500 [elapsed time: 1.7e+03 s] 
+INFO: # Currently at event 75000 [elapsed time: 1.7e+03 s] 
+INFO: # Currently at event 77500 [elapsed time: 1.8e+03 s] 
+INFO: # Currently at event 80000 [elapsed time: 1.8e+03 s] 
+INFO: # Currently at event 82500 [elapsed time: 1.9e+03 s] 
+INFO: # Currently at event 85000 [elapsed time: 2e+03 s] 
+INFO: # Currently at event 87500 [elapsed time: 2e+03 s] 
+INFO: # Currently at event 90000 [elapsed time: 2.1e+03 s] 
+INFO: # Currently at event 92500 [elapsed time: 2.1e+03 s] 
+INFO: # Currently at event 95000 [elapsed time: 2.2e+03 s] 
+INFO: # Currently at event 97500 [elapsed time: 2.2e+03 s] 
+INFO: # Currently at event 100000 [elapsed time: 2.3e+03 s] 
+INFO: # Currently at event 102500 [elapsed time: 2.3e+03 s] 
+INFO: # Currently at event 105000 [elapsed time: 2.4e+03 s] 
+INFO: # Currently at event 107500 [elapsed time: 2.5e+03 s] 
+INFO: # Currently at event 110000 [elapsed time: 2.5e+03 s] 
+INFO: # Currently at event 112500 [elapsed time: 2.6e+03 s] 
+INFO: # Currently at event 115000 [elapsed time: 2.6e+03 s] 
+INFO: # Currently at event 117500 [elapsed time: 2.7e+03 s] 
+INFO: # Currently at event 120000 [elapsed time: 2.7e+03 s] 
+INFO: # Currently at event 122500 [elapsed time: 2.8e+03 s] 
+INFO: # Currently at event 125000 [elapsed time: 2.9e+03 s] 
+INFO: # Currently at event 127500 [elapsed time: 2.9e+03 s] 
+INFO: # Currently at event 130000 [elapsed time: 3e+03 s] 
+INFO: # Currently at event 132500 [elapsed time: 3e+03 s] 
+INFO: # Currently at event 135000 [elapsed time: 3.1e+03 s] 
+INFO: # Currently at event 137500 [elapsed time: 3.1e+03 s] 
+INFO: # Currently at event 140000 [elapsed time: 3.2e+03 s] 
+INFO: # Currently at event 142500 [elapsed time: 3.3e+03 s] 
+INFO: # Currently at event 145000 [elapsed time: 3.3e+03 s] 
+INFO: # Currently at event 147500 [elapsed time: 3.4e+03 s] 
+INFO: # Currently at event 150000 [elapsed time: 3.4e+03 s] 
+INFO: # Currently at event 152500 [elapsed time: 3.5e+03 s] 
+INFO: # Currently at event 155000 [elapsed time: 3.5e+03 s] 
+INFO: # Currently at event 157500 [elapsed time: 3.6e+03 s] 
+INFO: # Currently at event 160000 [elapsed time: 3.6e+03 s] 
+INFO: # Currently at event 162500 [elapsed time: 3.7e+03 s] 
+INFO: # Currently at event 165000 [elapsed time: 3.8e+03 s] 
+INFO: # Currently at event 167500 [elapsed time: 3.8e+03 s] 
+INFO: # Currently at event 170000 [elapsed time: 3.9e+03 s] 
+INFO: # Currently at event 172500 [elapsed time: 3.9e+03 s] 
+INFO: # Currently at event 175000 [elapsed time: 4e+03 s] 
+INFO: # Currently at event 177500 [elapsed time: 4e+03 s] 
+INFO: # Currently at event 180000 [elapsed time: 4.1e+03 s] 
+INFO: # Currently at event 182500 [elapsed time: 4.2e+03 s] 
+INFO: # Currently at event 185000 [elapsed time: 4.2e+03 s] 
+INFO: # Currently at event 187500 [elapsed time: 4.3e+03 s] 
+INFO: # Currently at event 190000 [elapsed time: 4.3e+03 s] 
+INFO: # Currently at event 192500 [elapsed time: 4.4e+03 s] 
+INFO: # Currently at event 195000 [elapsed time: 4.4e+03 s] 
+INFO: # Currently at event 197500 [elapsed time: 4.5e+03 s] 
+INFO: #***************************************************************************
+#
+# original cross-section: 729.0426199980467
+#     scale variation: +37.4% -23.7%
+#     emission scale variation: +37.4% -23.7%
+#     central scheme variation: + 0% -38%
+# PDF variation: +3.23e+03% -3.23e+03%
+#
+#PDF NNPDF31_nnlo_as_0118_mc: 746.676 +30.1% -30.1%
+#PDF NNPDF31_nlo_hessian_pdfas: 748.525 +6.8% -6.8%
+#PDF NNPDF40_nnlo_pdfas: 712.769 +3.57% -3.57%
+#PDF NNPDF40_nnlo_hessian_pdfas: 711.981 +3.56% -3.56%
+#PDF NNPDF40_nnlo_pch_as_01180: 714.749 +0.903% -0.903%
+#PDF CT18NNLO: 759.198 +4.6% -2.86%
+#PDF CT18ZNNLO: 735.909 +3.67% -3.48%
+#PDF MSHT20nnlo_as118: 751.798 +3.47% -2.11%
+#PDF PDF4LHC21_40_pdfas: 753.252 +4.97% -4.97%
+#PDF HERAPDF20_NNLO_EIG: 707.145 +1.06% -5.33%
+#PDF ABMP16als118_5_nnlo: 713.87 +2.76% -2.76%
+# dynamical scheme # 1 : 582.293 +27.1% -20% # \sum ET
+# dynamical scheme # 2 : 532.61 +26.3% -19.6% # \sum\sqrt{m^2+pt^2}
+# dynamical scheme # 3 : 672.623 +28.7% -20.8% # 0.5 \sum\sqrt{m^2+pt^2}
+# dynamical scheme # 4 : 451.937 +24.8% -18.8% # \sqrt{\hat s}
+# PDF 263000 : 962.85198942341
+#***************************************************************************
+ 
+INFO: End of systematics computation 
+madevent>INFO:  
+launch in debug mode
+/srv/work
+
+Run xml check
+Number of weights that are NaN:
+0
+All checks passed 
+
+total 7241988
+drwxr-xr-x. 17 choij zh       4096 Aug 23 02:49 CMSSW_14_0_9
+drwxr-xr-x.  2 choij zh        133 Aug 19 08:06 InputCards
+-rw-r--r--.  1 choij zh   43288656 Aug 23 02:49 TT2j_CKM_LO_5f_CUDA_el8_amd64_gcc12_CMSSW_14_0_9_tarball.tar.xz
+-rw-r--r--.  1 choij zh 7370045404 Aug 23 04:21 cmsgrid_final.lhe
+-rw-r--r--.  1 choij zh    1862041 Aug 23 04:22 evtgen.log
+-rw-r--r--.  1 choij zh     127431 Aug 19 08:06 gridpack_generation.log
+-rwxr-xr-x.  1 choij zh      11617 Aug 19 08:06 merge.pl
+drwxr-xr-x. 14 choij zh       4096 Aug 19 08:06 mgbasedir
+drwxr-xr-x.  3 choij zh         36 Aug 23 03:04 process
+-rwxr-xr-x.  1 choij zh       8025 Aug 23 02:49 runcmsgrid.sh

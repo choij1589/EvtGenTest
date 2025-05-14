@@ -1,0 +1,248 @@
+CPU Information:
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              64
+On-line CPU(s) list: 0-63
+Thread(s) per core:  2
+Core(s) per socket:  16
+Socket(s):           2
+NUMA node(s):        2
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               85
+Model name:          Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz
+Stepping:            7
+CPU MHz:             2800.000
+CPU max MHz:         3900.0000
+CPU min MHz:         1000.0000
+BogoMIPS:            4600.00
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            1024K
+L3 cache:            22528K
+NUMA node0 CPU(s):   0-15,32-47
+NUMA node1 CPU(s):   16-31,48-63
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 ssbd mba ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req pku ospke avx512_vnni md_clear flush_l1d arch_capabilities
+GPU Information:
+lspci command not found, unable to check GPU.
+System Architecture:
+x86_64
+Number of Threads:
+1
+Vectorization Support:
+Supported vectorization extensions: sse sse2 ssse3 sse4_1 sse4_2 avx avx2
+/srv/work
+%MSG-MG5 number of events requested = 10000
+%MSG-MG5 random seed used for the run = 1
+%MSG-MG5 number of cpus = 1
+%MSG-MG5 SCRAM_ARCH version = el8_amd64_gcc12
+%MSG-MG5 CMSSW version = CMSSW_14_0_9
+Running MG5_aMC for the 1 time
+produced_lhe  0 nevt  10000 submitting_event  10000  remaining_event  10000
+run.sh 10000 10
+Now generating 10000 events with random seed 10 and granularity 1
+************************************************************
+*                                                          *
+*                      W E L C O M E to                    *
+*             M A D G R A P H 5 _ a M C @ N L O            *
+*                      M A D E V E N T                     *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 3.5.3_lo_vect                            *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*                                                          *
+************************************************************
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+INFO: load configuration from /srv/work/mgbasedir/input/mg5_configuration.txt  
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+No valid eps viewer found. Please set in ./input/mg5_configuration.txt
+No valid web browser found. Please set in ./input/mg5_configuration.txt
+WRITE GRIDCARD /srv/work/process/madevent
+generate 10000 events
+P2_gg_epemuux
+P2_gg_epemddx
+P2_gg_taptamuux
+P2_gg_taptamddx
+P2_gu_epemgu
+P2_gd_epemgd
+P2_gux_epemgux
+P2_gdx_epemgdx
+P2_gu_taptamgu
+P2_gd_taptamgd
+P2_gux_taptamgux
+P2_gdx_taptamgdx
+P2_uu_epemuu
+P2_uux_epemuux
+P2_dd_epemdd
+P2_ddx_epemddx
+P2_uxux_epemuxux
+P2_dxdx_epemdxdx
+P2_ud_epemud
+P2_uc_epemuc
+P2_uux_epemddx
+P2_uux_epemccx
+P2_udx_epemudx
+P2_ucx_epemucx
+P2_dc_epemdc
+P2_ds_epemds
+P2_dux_epemdux
+P2_ddx_epemuux
+P2_ddx_epemssx
+P2_dsx_epemdsx
+P2_uxdx_epemuxdx
+P2_uxcx_epemuxcx
+P2_dxcx_epemdxcx
+P2_dxsx_epemdxsx
+P2_uu_taptamuu
+P2_uux_taptamuux
+P2_dd_taptamdd
+P2_ddx_taptamddx
+P2_uxux_taptamuxux
+P2_dxdx_taptamdxdx
+P2_ud_taptamud
+P2_uc_taptamuc
+P2_uux_taptamddx
+P2_uux_taptamccx
+P2_udx_taptamudx
+P2_ucx_taptamucx
+P2_dc_taptamdc
+P2_ds_taptamds
+P2_dux_taptamdux
+P2_ddx_taptamuux
+P2_ddx_taptamssx
+P2_dsx_taptamdsx
+P2_uxdx_taptamuxdx
+P2_uxcx_taptamuxcx
+P2_dxcx_taptamdxcx
+P2_dxsx_taptamdxsx
+P2_uux_epemgg
+P2_ddx_epemgg
+P2_uux_taptamgg
+P2_ddx_taptamgg
+P1_gu_epemu
+P1_gd_epemd
+P1_gux_epemux
+P1_gdx_epemdx
+P1_gu_taptamu
+P1_gd_taptamd
+P1_gux_taptamux
+P1_gdx_taptamdx
+P1_uux_epemg
+P1_ddx_epemg
+P1_uux_taptamg
+P1_ddx_taptamg
+P0_uux_epem
+P0_ddx_epem
+P0_uux_taptam
+P0_ddx_taptam
+Using random number seed offset = 10
+INFO: Generating 10000.0 unweighted events. 
+sum of cpu time of last step: 14h01m14s
+INFO: need to improve 315 channels 
+combine_events
+store_events
+  === Results Summary for run: GridRun_10 tag: tag_1 ===
+
+     Cross-section :   0 +- 0 pb
+     Nb of events :  10000
+ 
+decay_events -from_cards
+DONE
+write ./events.lhe.gz
+run 1 finished, total number of produced events: 10000/10000
+
+-rw-r--r--. 1 choij zh 1924097 Aug 28 06:51 events_1.lhe.gz
+run finished, produced number of events:
+10000
+/srv/work/process/madevent /srv/work
+************************************************************
+*                                                          *
+*                      W E L C O M E to                    *
+*             M A D G R A P H 5 _ a M C @ N L O            *
+*                      M A D E V E N T                     *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 3.5.3_lo_vect                            *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*                                                          *
+************************************************************
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+INFO: load configuration from /srv/work/mgbasedir/input/mg5_configuration.txt  
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+No valid eps viewer found. Please set in ./input/mg5_configuration.txt
+No valid web browser found. Please set in ./input/mg5_configuration.txt
+madevent>INFO: Running Systematics computation 
+INFO: # Events generated with PDF: NNPDF31_nnlo_as_0118_mc_hessian_pdfas (325300) 
+INFO: # Will Compute 926 weights per event. 
+INFO: # Currently at event 0 [elapsed time: 0.083 s] 
+INFO: # Currently at event 2500 [elapsed time: 81 s] 
+INFO: # Currently at event 5000 [elapsed time: 1.7e+02 s] 
+INFO: # Currently at event 7500 [elapsed time: 2.7e+02 s] 
+INFO: #***************************************************************************
+#
+# original cross-section: 23629.512000004237
+#     scale variation: +15.5% -10.9%
+#     emission scale variation: +15.5% -10.9%
+#     central scheme variation: +2.06% -10.3%
+# PDF variation: +2.72% -2.72%
+#
+#PDF NNPDF31_nnlo_as_0118_mc: 23573.6 +0.457% -0.457%
+#PDF NNPDF31_nlo_hessian_pdfas: 23211 +2.71% -2.71%
+#PDF NNPDF40_nnlo_pdfas: 23895.4 +1.21% -1.21%
+#PDF NNPDF40_nnlo_hessian_pdfas: 23901.8 +1.21% -1.21%
+#PDF NNPDF40_nnlo_pch_as_01180: 23912.7 +0.271% -0.271%
+#PDF CT18NNLO: 23203 +0.987% -1.65%
+#PDF CT18ZNNLO: 23744.5 +1.16% -1.53%
+#PDF MSHT20nnlo_as118: 23433.3 +0.674% -0.993%
+#PDF PDF4LHC21_40_pdfas: 23465.8 +1.99% -1.99%
+#PDF HERAPDF20_NNLO_EIG: 23855.1 +0.873% -0.978%
+#PDF ABMP16als118_5_nnlo: 23495 +0.683% -0.683%
+# dynamical scheme # 1 : 23191.7 +9.02% -10.1% # \sum ET
+# dynamical scheme # 2 : 23193.3 +9.02% -10.1% # \sum\sqrt{m^2+pt^2}
+# dynamical scheme # 3 : 21194 +11.5% -12.8% # 0.5 \sum\sqrt{m^2+pt^2}
+# dynamical scheme # 4 : 24115.8 +7.9% -8.85% # \sqrt{\hat s}
+# PDF 263000 : 25948.811957513488
+#***************************************************************************
+ 
+INFO: End of systematics computation 
+madevent>INFO:  
+launch in debug mode
+/srv/work
+
+Run xml check
+Number of weights that are NaN:
+0
+All checks passed 
+
+total 405800
+drwxr-xr-x. 17 choij zh      4096 Aug 28 06:31 CMSSW_14_0_9
+-rw-r--r--.  1 choij zh  46795772 Aug 28 06:31 DY012j_LO_5f_FORTRAN_el8_amd64_gcc12_CMSSW_14_0_9_tarball.tar.xz
+drwxr-xr-x.  2 choij zh      4096 Aug 22 14:31 InputCards
+-rw-r--r--.  1 choij zh 365652759 Aug 28 06:58 cmsgrid_final.lhe
+-rw-r--r--.  1 choij zh   2090291 Aug 28 06:58 evtgen.log
+-rw-r--r--.  1 choij zh    430729 Aug 22 14:31 gridpack_generation.log
+-rwxr-xr-x.  1 choij zh     11617 Aug 22 14:31 merge.pl
+drwxr-xr-x. 14 choij zh      4096 Aug 22 14:31 mgbasedir
+drwxr-xr-x.  3 choij zh        48 Aug 28 06:51 process
+-rwxr-xr-x.  1 choij zh      8025 Aug 28 06:31 runcmsgrid.sh

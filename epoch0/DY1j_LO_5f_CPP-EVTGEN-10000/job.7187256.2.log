@@ -1,0 +1,47 @@
+000 (7187256.002.000) 08/26 07:55:13 Job submitted from host: <137.138.44.55:9618?addrs=137.138.44.55-9618+[2001-1458-d00-1a--48]-9618&alias=bigbird17.cern.ch&noUDP&sock=schedd_23962_8474>
+...
+040 (7187256.002.000) 08/26 10:51:10 Started transferring input files
+	Transferring to host: <128.142.248.94:9618?addrs=128.142.248.94-9618+[2001-1458-301-73--100-14e]-9618&alias=b9g23p2790.cern.ch&noUDP&sock=slot1_10_5757_13c3_10230>
+...
+040 (7187256.002.000) 08/26 10:51:10 Finished transferring input files
+...
+001 (7187256.002.000) 08/26 10:51:11 Job executing on host: <128.142.248.94:9618?addrs=128.142.248.94-9618+[2001-1458-301-73--100-14e]-9618&alias=b9g23p2790.cern.ch&noUDP&sock=startd_4576_5577>
+	SlotName: slot1_10@b9g23p2790.cern.ch
+	CondorScratchDir = "/pool/condor/dir_3922811"
+	Cpus = 1
+	Disk = 2943487
+	Memory = 2000
+...
+006 (7187256.002.000) 08/26 10:51:20 Image size of job updated: 540096
+	309  -  MemoryUsage of job (MB)
+	316244  -  ResidentSetSize of job (KB)
+...
+006 (7187256.002.000) 08/26 10:56:21 Image size of job updated: 3507296
+	3426  -  MemoryUsage of job (MB)
+	3507296  -  ResidentSetSize of job (KB)
+...
+006 (7187256.002.000) 08/26 11:00:47 Image size of job updated: 3828028
+	3426  -  MemoryUsage of job (MB)
+	3507296  -  ResidentSetSize of job (KB)
+...
+040 (7187256.002.000) 08/26 11:00:47 Started transferring output files
+...
+040 (7187256.002.000) 08/26 11:00:47 Finished transferring output files
+...
+005 (7187256.002.000) 08/26 11:00:47 Job terminated.
+	(1) Normal termination (return value 50)
+		Usr 0 00:09:07, Sys 0 00:00:23  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:09:07, Sys 0 00:00:23  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	15718  -  Run Bytes Sent By Job
+	2910  -  Run Bytes Received By Job
+	15718  -  Total Bytes Sent By Job
+	2910  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :   510101        3   2943487 
+	   Memory (MB)          :     3426     2000      2000 
+
+	Job terminated of its own accord at 2024-08-26T09:00:47Z with exit-code 50.
+...

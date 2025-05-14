@@ -1,0 +1,1407 @@
+CPU Information:
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              16
+On-line CPU(s) list: 0-15
+Thread(s) per core:  1
+Core(s) per socket:  1
+Socket(s):           16
+NUMA node(s):        1
+Vendor ID:           AuthenticAMD
+CPU family:          25
+Model:               1
+Model name:          AMD EPYC 7313 16-Core Processor
+Stepping:            1
+CPU MHz:             3000.117
+BogoMIPS:            6000.23
+Virtualization:      AMD-V
+L1d cache:           64K
+L1i cache:           64K
+L2 cache:            512K
+L3 cache:            16384K
+NUMA node0 CPU(s):   0-15
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw perfctr_core invpcid_single ssbd ibrs ibpb stibp vmmcall fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr wbnoinvd arat npt lbrv nrip_save tsc_scale vmcb_clean pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid arch_capabilities
+GPU Information:
+lspci command not found, unable to check GPU.
+System Architecture:
+x86_64
+Number of Threads:
+1
+Vectorization Support:
+Supported vectorization extensions: sse sse2 ssse3 sse4_1 sse4_2 avx avx2
+/srv/work
+%MSG-MG5 number of events requested = 5000
+%MSG-MG5 random seed used for the run = 1
+%MSG-MG5 number of cpus = 1
+%MSG-MG5 SCRAM_ARCH version = el8_amd64_gcc12
+%MSG-MG5 CMSSW version = CMSSW_14_0_9
+Running MG5_aMC for the 1 time
+produced_lhe  0 nevt  5000 submitting_event  5000  remaining_event  5000
+run.sh 5000 10
+Now generating 5000 events with random seed 10 and granularity 1
+************************************************************
+*                                                          *
+*                      W E L C O M E to                    *
+*             M A D G R A P H 5 _ a M C @ N L O            *
+*                      M A D E V E N T                     *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 3.5.3_lo_vect                            *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*                                                          *
+************************************************************
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+INFO: load configuration from /srv/work/mgbasedir/input/mg5_configuration.txt  
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+No valid eps viewer found. Please set in ./input/mg5_configuration.txt
+No valid web browser found. Please set in ./input/mg5_configuration.txt
+WRITE GRIDCARD /srv/work/process/madevent
+generate 5000 events
+P0_gg_epemguux
+P0_gg_epemgddx
+P0_gg_taptamguux
+P0_gg_taptamgddx
+P0_gu_epemggu
+P0_gd_epemggd
+P0_gux_epemggux
+P0_gdx_epemggdx
+P0_gu_taptamggu
+P0_gd_taptamggd
+P0_gux_taptamggux
+P0_gdx_taptamggdx
+P0_uux_epemggg
+P0_ddx_epemggg
+P0_uux_taptamggg
+P0_ddx_taptamggg
+P0_gu_epemuuux
+P0_gd_epemdddx
+P0_gux_epemuuxux
+P0_gdx_epemddxdx
+P0_gu_epemuddx
+P0_gu_epemuccx
+P0_gd_epemudux
+P0_gd_epemdssx
+P0_gux_epemduxdx
+P0_gux_epemcuxcx
+P0_gdx_epemuuxdx
+P0_gdx_epemsdxsx
+P0_gu_taptamuuux
+P0_gd_taptamdddx
+P0_gux_taptamuuxux
+P0_gdx_taptamddxdx
+P0_gu_taptamuddx
+P0_gu_taptamuccx
+P0_gd_taptamudux
+P0_gd_taptamdssx
+P0_gux_taptamduxdx
+P0_gux_taptamcuxcx
+P0_gdx_taptamuuxdx
+P0_gdx_taptamsdxsx
+P0_uu_epemguu
+P0_uux_epemguux
+P0_dd_epemgdd
+P0_ddx_epemgddx
+P0_uxux_epemguxux
+P0_dxdx_epemgdxdx
+P0_ud_epemgud
+P0_uc_epemguc
+P0_uux_epemgddx
+P0_uux_epemgccx
+P0_udx_epemgudx
+P0_ucx_epemgucx
+P0_dc_epemgdc
+P0_ds_epemgds
+P0_dux_epemgdux
+P0_ddx_epemguux
+P0_ddx_epemgssx
+P0_dsx_epemgdsx
+P0_uxdx_epemguxdx
+P0_uxcx_epemguxcx
+P0_dxcx_epemgdxcx
+P0_dxsx_epemgdxsx
+P0_uu_taptamguu
+P0_uux_taptamguux
+P0_dd_taptamgdd
+P0_ddx_taptamgddx
+P0_uxux_taptamguxux
+P0_dxdx_taptamgdxdx
+P0_ud_taptamgud
+P0_uc_taptamguc
+P0_uux_taptamgddx
+P0_uux_taptamgccx
+P0_udx_taptamgudx
+P0_ucx_taptamgucx
+P0_dc_taptamgdc
+P0_ds_taptamgds
+P0_dux_taptamgdux
+P0_ddx_taptamguux
+P0_ddx_taptamgssx
+P0_dsx_taptamgdsx
+P0_uxdx_taptamguxdx
+P0_uxcx_taptamguxcx
+P0_dxcx_taptamgdxcx
+P0_dxsx_taptamgdxsx
+Using random number seed offset = 10
+INFO: Generating 5000.0 unweighted events. 
+sum of cpu time of last step: 2 days,6h00m01s
+INFO: need to improve 1155 channels 
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+INFO: The following Floating Point Exceptions have been reported: FE_INVALID
+combine_events
+store_events
+  === Results Summary for run: GridRun_10 tag: tag_1 ===
+
+     Cross-section :   0 +- 0 pb
+     Nb of events :  5000
+ 
+decay_events -from_cards
+DONE
+write ./events.lhe.gz
+run 1 finished, total number of produced events: 5000/5000
+
+-rw-r--r--. 1 choij zh 1510388 Aug 27 21:21 events_1.lhe.gz
+run finished, produced number of events:
+5000
+/srv/work/process/madevent /srv/work
+************************************************************
+*                                                          *
+*                      W E L C O M E to                    *
+*             M A D G R A P H 5 _ a M C @ N L O            *
+*                      M A D E V E N T                     *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 3.5.3_lo_vect                            *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*                                                          *
+************************************************************
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+INFO: load configuration from /srv/work/mgbasedir/input/mg5_configuration.txt  
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+No valid eps viewer found. Please set in ./input/mg5_configuration.txt
+No valid web browser found. Please set in ./input/mg5_configuration.txt
+madevent>INFO: Running Systematics computation 
+INFO: # Events generated with PDF: NNPDF31_nnlo_as_0118_mc_hessian_pdfas (325300) 
+INFO: # Will Compute 926 weights per event. 
+INFO: # Currently at event 0 [elapsed time: 0.043 s] 
+INFO: # Currently at event 2500 [elapsed time: 38 s] 
+INFO: #***************************************************************************
+#
+# original cross-section: 4789.229600000451
+#     scale variation: +47.4% -28.1%
+#     emission scale variation: +47.4% -28.1%
+#     central scheme variation: +3.15% -6.47%
+# PDF variation: +6.15% -6.15%
+#
+#PDF NNPDF31_nnlo_as_0118_mc: 4772.16 +0.477% -0.477%
+#PDF NNPDF31_nlo_hessian_pdfas: 4766.8 +6.08% -6.08%
+#PDF NNPDF40_nnlo_pdfas: 4802.68 +3.1% -3.1%
+#PDF NNPDF40_nnlo_hessian_pdfas: 4803.67 +3.1% -3.1%
+#PDF NNPDF40_nnlo_pch_as_01180: 4755.94 +0.234% -0.234%
+#PDF CT18NNLO: 4731.92 +0.379% -0.658%
+#PDF CT18ZNNLO: 4713.91 +0.406% -0.878%
+#PDF MSHT20nnlo_as118: 4753.34 +0.336% -0.305%
+#PDF PDF4LHC21_40_pdfas: 4773.44 +3.45% -3.45%
+#PDF HERAPDF20_NNLO_EIG: 4712.17 +0.0896% -0.566%
+#PDF ABMP16als118_5_nnlo: 4716.68 +0.265% -0.265%
+# dynamical scheme # 1 : 4761.2 +3.76% -3.64% # \sum ET
+# dynamical scheme # 2 : 4761.16 +3.76% -3.64% # \sum\sqrt{m^2+pt^2}
+# dynamical scheme # 3 : 4940.26 +4.25% -4.08% # 0.5 \sum\sqrt{m^2+pt^2}
+# dynamical scheme # 4 : 4479.2 +3.32% -3.26% # \sqrt{\hat s}
+# PDF 263000 : 6410.757641850854
+#***************************************************************************
+ 
+INFO: End of systematics computation 
+madevent>INFO:  
+launch in debug mode
+/srv/work
+
+Run xml check
+Number of weights that are NaN:
+0
+All checks passed 
+
+total 294800
+drwxr-xr-x. 17 choij zh      4096 Aug 27 20:04 CMSSW_14_0_9
+-rw-r--r--.  1 choij zh 112277036 Aug 27 20:03 DY3j_LO_5f_CUDA_el8_amd64_gcc12_CMSSW_14_0_9_tarball.tar.xz
+drwxr-xr-x.  2 choij zh       165 Aug 22 10:08 InputCards
+-rw-r--r--.  1 choij zh 185112504 Aug 27 21:22 cmsgrid_final.lhe
+-rw-r--r--.  1 choij zh   1862523 Aug 27 21:22 evtgen.log
+-rw-r--r--.  1 choij zh    913029 Aug 22 10:08 gridpack_generation.log
+-rwxr-xr-x.  1 choij zh     11617 Aug 22 10:08 merge.pl
+drwxr-xr-x. 14 choij zh      4096 Aug 22 10:08 mgbasedir
+drwxr-xr-x.  3 choij zh        36 Aug 27 21:21 process
+-rwxr-xr-x.  1 choij zh      8025 Aug 27 20:04 runcmsgrid.sh

@@ -1,0 +1,95 @@
+000 (7187271.006.000) 08/26 07:55:26 Job submitted from host: <137.138.44.55:9618?addrs=137.138.44.55-9618+[2001-1458-d00-1a--48]-9618&alias=bigbird17.cern.ch&noUDP&sock=schedd_23962_8474>
+...
+040 (7187271.006.000) 08/26 12:01:05 Started transferring input files
+	Transferring to host: <128.142.248.197:9618?addrs=128.142.248.197-9618+[2001-1458-301-73--100-c4]-9618&alias=b9g23p2961.cern.ch&noUDP&sock=slot1_34_7499_794a_4847>
+...
+040 (7187271.006.000) 08/26 12:01:05 Finished transferring input files
+...
+001 (7187271.006.000) 08/26 12:01:06 Job executing on host: <128.142.248.197:9618?addrs=128.142.248.197-9618+[2001-1458-301-73--100-c4]-9618&alias=b9g23p2961.cern.ch&noUDP&sock=startd_5911_0866>
+	SlotName: slot1_34@b9g23p2961.cern.ch
+	CondorScratchDir = "/pool/condor/dir_2837131"
+	Cpus = 1
+	Disk = 3064097
+	Memory = 2000
+...
+006 (7187271.006.000) 08/26 12:01:14 Image size of job updated: 602764
+	587  -  MemoryUsage of job (MB)
+	600840  -  ResidentSetSize of job (KB)
+...
+006 (7187271.006.000) 08/26 12:06:14 Image size of job updated: 992344
+	937  -  MemoryUsage of job (MB)
+	959316  -  ResidentSetSize of job (KB)
+...
+006 (7187271.006.000) 08/26 12:11:15 Image size of job updated: 1323768
+	1290  -  MemoryUsage of job (MB)
+	1320048  -  ResidentSetSize of job (KB)
+...
+006 (7187271.006.000) 08/26 12:16:15 Image size of job updated: 1672548
+	1615  -  MemoryUsage of job (MB)
+	1652796  -  ResidentSetSize of job (KB)
+...
+006 (7187271.006.000) 08/26 12:21:16 Image size of job updated: 1860948
+	1792  -  MemoryUsage of job (MB)
+	1834152  -  ResidentSetSize of job (KB)
+...
+006 (7187271.006.000) 08/26 12:26:16 Image size of job updated: 1865632
+	1796  -  MemoryUsage of job (MB)
+	1838248  -  ResidentSetSize of job (KB)
+...
+006 (7187271.006.000) 08/26 12:31:18 Image size of job updated: 3801628
+	3713  -  MemoryUsage of job (MB)
+	3801628  -  ResidentSetSize of job (KB)
+...
+006 (7187271.006.000) 08/26 12:36:18 Image size of job updated: 4257456
+	4158  -  MemoryUsage of job (MB)
+	4257456  -  ResidentSetSize of job (KB)
+...
+006 (7187271.006.000) 08/26 12:41:18 Image size of job updated: 4721724
+	4612  -  MemoryUsage of job (MB)
+	4721724  -  ResidentSetSize of job (KB)
+...
+006 (7187271.006.000) 08/26 12:46:19 Image size of job updated: 5170268
+	5050  -  MemoryUsage of job (MB)
+	5170268  -  ResidentSetSize of job (KB)
+...
+006 (7187271.006.000) 08/26 12:51:19 Image size of job updated: 5628432
+	5497  -  MemoryUsage of job (MB)
+	5628432  -  ResidentSetSize of job (KB)
+...
+006 (7187271.006.000) 08/26 12:56:21 Image size of job updated: 6079484
+	5937  -  MemoryUsage of job (MB)
+	6079484  -  ResidentSetSize of job (KB)
+...
+006 (7187271.006.000) 08/26 13:01:21 Image size of job updated: 6399572
+	6250  -  MemoryUsage of job (MB)
+	6399572  -  ResidentSetSize of job (KB)
+...
+006 (7187271.006.000) 08/26 13:06:21 Image size of job updated: 6568228
+	6415  -  MemoryUsage of job (MB)
+	6568228  -  ResidentSetSize of job (KB)
+...
+006 (7187271.006.000) 08/26 13:10:20 Image size of job updated: 6819824
+	6415  -  MemoryUsage of job (MB)
+	6568228  -  ResidentSetSize of job (KB)
+...
+040 (7187271.006.000) 08/26 13:10:20 Started transferring output files
+...
+040 (7187271.006.000) 08/26 13:10:20 Finished transferring output files
+...
+005 (7187271.006.000) 08/26 13:10:20 Job terminated.
+	(1) Normal termination (return value 50)
+		Usr 0 01:07:44, Sys 0 00:01:15  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 01:07:44, Sys 0 00:01:15  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18687  -  Run Bytes Sent By Job
+	2934  -  Run Bytes Received By Job
+	18687  -  Total Bytes Sent By Job
+	2934  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.00        1         1 
+	   Disk (KB)            : 3941107           3   3064097 
+	   Memory (MB)          :    6415        2000      2000 
+
+	Job terminated of its own accord at 2024-08-26T11:10:20Z with exit-code 50.
+...

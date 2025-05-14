@@ -1,0 +1,44 @@
+000 (7270140.002.000) 10/11 16:12:48 Job submitted from host: <137.138.44.55:9618?addrs=137.138.44.55-9618+[2001-1458-d00-1a--48]-9618&alias=bigbird17.cern.ch&noUDP&sock=schedd_1981_6134>
+...
+040 (7270140.002.000) 10/11 16:13:18 Started transferring input files
+	Transferring to host: <188.185.238.10:9618?addrs=188.185.238.10-9618+[2001-1458-303-28--100-6]-9618&alias=b9pgpun002.cern.ch&noUDP&sock=slot1_1_1420705_f206_35793>
+...
+040 (7270140.002.000) 10/11 16:13:18 Finished transferring input files
+...
+001 (7270140.002.000) 10/11 16:13:19 Job executing on host: <188.185.238.10:9618?addrs=188.185.238.10-9618+[2001-1458-303-28--100-6]-9618&alias=b9pgpun002.cern.ch&noUDP&sock=startd_600104_020a>
+	SlotName: slot1_1@b9pgpun002.cern.ch
+	AvailableGPUs = { GPUs_GPU_1164dceb }
+	CondorScratchDir = "/pool/condor/dir_1236482"
+	Cpus = 1
+	Disk = 6840035
+	GPUs = 1
+	GPUs_GPU_1164dceb = [ GlobalMemoryMb = 95235; MaxSupportedVersion = 12040; DriverVersion = 12.4; DeviceName = "NVIDIA H100 NVL"; CoresPerCU = 128; ECCEnabled = true; ComputeUnits = 132; ClockMhz = 1785.0; Id = "GPU-1164dceb"; Capability = 9.0; DevicePciBusId = "0000:3A:00.0"; DeviceUuid = "1164dceb-fef9-9731-e6b7-4c427dea8cb4" ]
+	Memory = 2000
+...
+006 (7270140.002.000) 10/11 16:13:28 Image size of job updated: 36347176
+	43  -  MemoryUsage of job (MB)
+	43336  -  ResidentSetSize of job (KB)
+...
+040 (7270140.002.000) 10/11 16:53:54 Started transferring output files
+...
+040 (7270140.002.000) 10/11 16:53:54 Finished transferring output files
+...
+005 (7270140.002.000) 10/11 16:53:54 Job terminated.
+	(1) Normal termination (return value 50)
+		Usr 0 02:05:11, Sys 0 00:53:25  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 02:05:11, Sys 0 00:53:25  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	48421  -  Run Bytes Sent By Job
+	2423  -  Run Bytes Received By Job
+	48421  -  Total Bytes Sent By Job
+	2423  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated Assigned
+	   Cpus                 :       0.10        1         1 
+	   Disk (KB)            : 1265600           3   6840035 
+	   Gpus (Average)       :       0.06        1         1 "GPU-1164dceb"
+	   GpusMemory (MB)      :    3652                       
+	   Memory (MB)          :      43        2000      2000 
+
+	Job terminated of its own accord at 2024-10-11T14:53:54Z with exit-code 50.
+...

@@ -1,0 +1,12 @@
+WARNING: In non-interactive mode release checks e.g. deprecated releases, production architectures are disabled.
+WARNING: In non-interactive mode release checks e.g. deprecated releases, production architectures are disabled.
+WARNING: There already exists /srv/work/CMSSW_14_0_9 area for SCRAM_ARCH el8_amd64_gcc12.
+[1;31mCommand "systematics GridRun_PostProc_1 --start_id=1001 --pdf=325300,316200,306000@0,322500@0,322700@0,322900@0,323100@0,323300@0,323500@0,323700@0,323900@0,305800,303200@0,292200@0,331300,331600,332100,332300@0,332500@0,332700@0,332900@0,333100@0,333300@0,333500@0,333700@0,14000,14066@0,14067@0,14069@0,14070@0,14100,14200@0,14300@0,27400,27500@0,27550@0,93300,61200,42780,315000@0,315200@0,262000@0,263000@0 --mur=1,2,0.5 --muf=1,2,0.5 --together=muf,mur,dyn --dyn=-1,1,2,3,4 --alps=0.5,1,2" interrupted with error:
+AttributeError : 'NoneType' object has no attribute 'set'
+Please report this bug on https://bugs.launchpad.net/mg5amcnlo
+More information is found in '/srv/work/process/madevent/GridRun_PostProc_1_tag_1_debug.log'.
+Please attach this file to your report.[0m
+
+real	112m52.040s
+user	75m51.525s
+sys	15m55.700s

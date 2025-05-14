@@ -1,0 +1,14 @@
+universe                = vanilla
+jobbatchname            = EvtGen-DY0123j_LO_5f_CUDA
+executable				= evtgen.sh
+arguments				= $(ClusterId).$(ProcId)
+output					= job.$(ClusterId).$(ProcId).out
+error					= job.$(ClusterId).$(ProcId).err
+log						= job.$(ClusterId).$(ProcId).log
+request_CPUs			= 1
+request_GPUs            = 1
++requirements           = regexp("A100", TARGET.GPUs_DeviceName)
++JobFlavour				= "nextweek"
++MaxRuntime             = 1814400
++SingularityImage		= "/cvmfs/singularity.opensciencegrid.org/opensciencegrid/osgvo-el8:latest"
+queue 8

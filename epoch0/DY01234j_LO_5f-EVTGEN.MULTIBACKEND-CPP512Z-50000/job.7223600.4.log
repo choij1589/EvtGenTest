@@ -1,0 +1,138 @@
+000 (7223600.004.000) 09/25 06:46:13 Job submitted from host: <137.138.44.55:9618?addrs=137.138.44.55-9618+[2001-1458-d00-1a--48]-9618&alias=bigbird17.cern.ch&noUDP&sock=schedd_1981_6134>
+...
+040 (7223600.004.000) 09/26 16:13:55 Started transferring input files
+	Transferring to host: <188.185.190.109:9618?addrs=188.185.190.109-9618+[2001-1458-d03-b--100-300]-9618&alias=b9pgpun014.cern.ch&noUDP&sock=slot1_4_3185867_4229_18471>
+...
+040 (7223600.004.000) 09/26 16:13:55 Finished transferring input files
+...
+001 (7223600.004.000) 09/26 16:13:56 Job executing on host: <188.185.190.109:9618?addrs=188.185.190.109-9618+[2001-1458-d03-b--100-300]-9618&alias=b9pgpun014.cern.ch&noUDP&sock=startd_215167_3e60>
+	SlotName: slot1_4@b9pgpun014.cern.ch
+	AvailableGPUs = { GPUs_GPU_5b10c343 }
+	CondorScratchDir = "/pool/condor/dir_234317"
+	Cpus = 1
+	Disk = 6812072
+	GPUs = 1
+	GPUs_GPU_5b10c343 = [ GlobalMemoryMb = 95235; MaxSupportedVersion = 12040; DriverVersion = 12.4; DeviceName = "NVIDIA H100 NVL"; CoresPerCU = 128; ECCEnabled = true; ComputeUnits = 132; ClockMhz = 1785.0; Id = "GPU-5b10c343"; Capability = 9.0; DevicePciBusId = "0000:AE:00.0"; DeviceUuid = "5b10c343-d8c6-ecec-0fd5-9cb86aac472a" ]
+	Memory = 2000
+...
+006 (7223600.004.000) 09/26 16:14:05 Image size of job updated: 3082052
+	3010  -  MemoryUsage of job (MB)
+	3082036  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 16:19:06 Image size of job updated: 21625896
+	21107  -  MemoryUsage of job (MB)
+	21613048  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 16:24:06 Image size of job updated: 21739228
+	21224  -  MemoryUsage of job (MB)
+	21732836  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 16:29:07 Image size of job updated: 21758068
+	21245  -  MemoryUsage of job (MB)
+	21754220  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 16:34:08 Image size of job updated: 21767736
+	21253  -  MemoryUsage of job (MB)
+	21762604  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 16:39:09 Image size of job updated: 21831756
+	21317  -  MemoryUsage of job (MB)
+	21827968  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 16:44:08 Image size of job updated: 21940988
+	21421  -  MemoryUsage of job (MB)
+	21934292  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 16:49:09 Image size of job updated: 22019120
+	21491  -  MemoryUsage of job (MB)
+	22006552  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 16:54:10 Image size of job updated: 22043604
+	21520  -  MemoryUsage of job (MB)
+	22036164  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 17:03:56 Image size of job updated: 22081536
+	21559  -  MemoryUsage of job (MB)
+	22076296  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 17:18:26 Image size of job updated: 22294844
+	21766  -  MemoryUsage of job (MB)
+	22288200  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 17:30:05 Image size of job updated: 22491660
+	21952  -  MemoryUsage of job (MB)
+	22478416  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 17:37:11 Image size of job updated: 22652176
+	22110  -  MemoryUsage of job (MB)
+	22639860  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 17:43:56 Image size of job updated: 22739100
+	22200  -  MemoryUsage of job (MB)
+	22732440  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 17:51:53 Image size of job updated: 22929064
+	22387  -  MemoryUsage of job (MB)
+	22923280  -  ResidentSetSize of job (KB)
+...
+022 (7223600.004.000) 09/26 17:54:01 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_4@b9pgpun014.cern.ch <188.185.190.109:9618?addrs=188.185.190.109-9618+[2001-1458-d03-b--100-300]-9618&alias=b9pgpun014.cern.ch&noUDP&sock=startd_215167_3e60>
+...
+023 (7223600.004.000) 09/26 17:54:43 Job reconnected to slot1_4@b9pgpun014.cern.ch
+    startd address: <188.185.190.109:9618?addrs=188.185.190.109-9618+[2001-1458-d03-b--100-300]-9618&alias=b9pgpun014.cern.ch&noUDP&sock=startd_215167_3e60>
+    starter address: <188.185.190.109:9618?addrs=188.185.190.109-9618+[2001-1458-d03-b--100-300]-9618&alias=b9pgpun014.cern.ch&noUDP&sock=slot1_4_3185867_4229_18471>
+...
+006 (7223600.004.000) 09/26 17:57:47 Image size of job updated: 23157608
+	22588  -  MemoryUsage of job (MB)
+	23129252  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 18:02:48 Image size of job updated: 23195780
+	22645  -  MemoryUsage of job (MB)
+	23188032  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 18:07:49 Image size of job updated: 23294928
+	22729  -  MemoryUsage of job (MB)
+	23273488  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 18:12:50 Image size of job updated: 23441420
+	22883  -  MemoryUsage of job (MB)
+	23432092  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 18:17:51 Image size of job updated: 24008012
+	23382  -  MemoryUsage of job (MB)
+	23942560  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 18:22:50 Image size of job updated: 24448144
+	23873  -  MemoryUsage of job (MB)
+	24445584  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 18:27:51 Image size of job updated: 25902420
+	25296  -  MemoryUsage of job (MB)
+	25902420  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 18:32:52 Image size of job updated: 27027988
+	26395  -  MemoryUsage of job (MB)
+	27027988  -  ResidentSetSize of job (KB)
+...
+006 (7223600.004.000) 09/26 18:34:34 Image size of job updated: 27354540
+	26398  -  MemoryUsage of job (MB)
+	27030548  -  ResidentSetSize of job (KB)
+...
+005 (7223600.004.000) 09/26 18:35:06 Job terminated.
+	(1) Normal termination (return value 50)
+		Usr 0 02:19:07, Sys 0 00:14:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 02:44:36, Sys 0 00:26:42  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	321812  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	321812  -  Total Bytes Sent By Job
+	1405  -  Total Bytes Received By Job
+	Partitionable Resources :       Usage  Request Allocated 
+	   Cpus                 :        1.09        1         1 
+	   Disk (KB)            : 22911089    22911089   6812072 
+	   Memory (MB)          :    26398        2000      2000 
+
+	Job terminated of its own accord at 2024-09-26T16:34:34Z with exit-code 50.
+...

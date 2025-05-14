@@ -1,0 +1,79 @@
+000 (7227816.005.000) 10/02 08:39:19 Job submitted from host: <137.138.44.55:9618?addrs=137.138.44.55-9618+[2001-1458-d00-1a--48]-9618&alias=bigbird17.cern.ch&noUDP&sock=schedd_1981_6134>
+...
+040 (7227816.005.000) 10/02 22:52:22 Started transferring input files
+	Transferring to host: <128.142.248.214:9618?addrs=128.142.248.214-9618+[2001-1458-301-73--100-d5]-9618&alias=b9g23p2447.cern.ch&noUDP&sock=slot1_62_1211864_9179_35660>
+...
+040 (7227816.005.000) 10/02 22:52:22 Finished transferring input files
+...
+001 (7227816.005.000) 10/02 22:52:23 Job executing on host: <128.142.248.214:9618?addrs=128.142.248.214-9618+[2001-1458-301-73--100-d5]-9618&alias=b9g23p2447.cern.ch&noUDP&sock=startd_7869_0ed6>
+	SlotName: slot1_62@b9g23p2447.cern.ch
+	CondorScratchDir = "/pool/condor/dir_3221045"
+	Cpus = 1
+	Disk = 2989425
+	Memory = 2000
+...
+006 (7227816.005.000) 10/02 22:52:31 Image size of job updated: 3
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+006 (7227816.005.000) 10/02 22:57:31 Image size of job updated: 1176424
+	874  -  MemoryUsage of job (MB)
+	894892  -  ResidentSetSize of job (KB)
+...
+006 (7227816.005.000) 10/03 09:18:37 Image size of job updated: 1176424
+	1000  -  MemoryUsage of job (MB)
+	1023476  -  ResidentSetSize of job (KB)
+...
+006 (7227816.005.000) 10/03 09:23:37 Image size of job updated: 1236544
+	1208  -  MemoryUsage of job (MB)
+	1236152  -  ResidentSetSize of job (KB)
+...
+006 (7227816.005.000) 10/03 09:28:38 Image size of job updated: 2508008
+	2450  -  MemoryUsage of job (MB)
+	2508008  -  ResidentSetSize of job (KB)
+...
+006 (7227816.005.000) 10/03 09:33:39 Image size of job updated: 2918432
+	2850  -  MemoryUsage of job (MB)
+	2918244  -  ResidentSetSize of job (KB)
+...
+006 (7227816.005.000) 10/03 09:38:39 Image size of job updated: 3335460
+	3258  -  MemoryUsage of job (MB)
+	3335460  -  ResidentSetSize of job (KB)
+...
+006 (7227816.005.000) 10/03 09:43:40 Image size of job updated: 3760104
+	3672  -  MemoryUsage of job (MB)
+	3760104  -  ResidentSetSize of job (KB)
+...
+006 (7227816.005.000) 10/03 09:48:40 Image size of job updated: 3896876
+	3672  -  MemoryUsage of job (MB)
+	3760104  -  ResidentSetSize of job (KB)
+...
+006 (7227816.005.000) 10/03 09:53:41 Image size of job updated: 4049032
+	3955  -  MemoryUsage of job (MB)
+	4049032  -  ResidentSetSize of job (KB)
+...
+006 (7227816.005.000) 10/03 09:55:29 Image size of job updated: 4142700
+	3955  -  MemoryUsage of job (MB)
+	4049288  -  ResidentSetSize of job (KB)
+...
+040 (7227816.005.000) 10/03 09:55:29 Started transferring output files
+...
+040 (7227816.005.000) 10/03 09:55:29 Finished transferring output files
+...
+005 (7227816.005.000) 10/03 09:55:29 Job terminated.
+	(1) Normal termination (return value 50)
+		Usr 0 10:47:18, Sys 0 00:08:08  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 10:47:18, Sys 0 00:08:08  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	17640  -  Run Bytes Sent By Job
+	2438  -  Run Bytes Received By Job
+	17640  -  Total Bytes Sent By Job
+	2438  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.98        1         1 
+	   Disk (KB)            : 2920226           3   2989425 
+	   Memory (MB)          :    3955        2000      2000 
+
+	Job terminated of its own accord at 2024-10-03T07:55:29Z with exit-code 50.
+...

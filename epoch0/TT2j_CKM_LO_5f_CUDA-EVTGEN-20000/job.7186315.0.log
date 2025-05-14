@@ -1,0 +1,56 @@
+000 (7186315.000.000) 08/22 15:33:45 Job submitted from host: <137.138.44.55:9618?addrs=137.138.44.55-9618+[2001-1458-d00-1a--48]-9618&alias=bigbird17.cern.ch&noUDP&sock=schedd_23962_8474>
+...
+040 (7186315.000.000) 08/23 01:13:35 Started transferring input files
+	Transferring to host: <188.185.92.94:9618?addrs=188.185.92.94-9618+[2001-1458-d00-6c--100-91]-9618&alias=b9g57n5555.cern.ch&noUDP&sock=slot1_1_17435_48de_106120>
+...
+040 (7186315.000.000) 08/23 01:13:35 Finished transferring input files
+...
+001 (7186315.000.000) 08/23 01:13:36 Job executing on host: <188.185.92.94:9618?addrs=188.185.92.94-9618+[2001-1458-d00-6c--100-91]-9618&alias=b9g57n5555.cern.ch&noUDP&sock=startd_17379_207f>
+	SlotName: slot1_1@b9g57n5555.cern.ch
+	AvailableGPUs = { GPUs_GPU_c25adc0c }
+	CondorScratchDir = "/pool/condor/dir_4054738"
+	Cpus = 1
+	Disk = 325052
+	GPUs = 1
+	GPUs_GPU_c25adc0c = [ GlobalMemoryMb = 40326; MaxSupportedVersion = 12040; DriverVersion = 12.4; DeviceUuid = "c25adc0c-f079-799e-ebde-bae2b8d3b142"; DeviceName = "NVIDIA A100-PCIE-40GB"; CoresPerCU = 64; ECCEnabled = true; ComputeUnits = 108; ClockMhz = 1410.0; Id = "GPU-c25adc0c"; DevicePciBusId = "0000:06:00.0"; Capability = 8.0 ]
+	Memory = 2000
+...
+006 (7186315.000.000) 08/23 01:13:45 Image size of job updated: 704076
+	394  -  MemoryUsage of job (MB)
+	402460  -  ResidentSetSize of job (KB)
+...
+006 (7186315.000.000) 08/23 01:18:45 Image size of job updated: 942256
+	859  -  MemoryUsage of job (MB)
+	879124  -  ResidentSetSize of job (KB)
+...
+006 (7186315.000.000) 08/23 01:23:46 Image size of job updated: 5079424
+	4961  -  MemoryUsage of job (MB)
+	5079424  -  ResidentSetSize of job (KB)
+...
+006 (7186315.000.000) 08/23 01:27:44 Image size of job updated: 5425488
+	4961  -  MemoryUsage of job (MB)
+	5079424  -  ResidentSetSize of job (KB)
+...
+040 (7186315.000.000) 08/23 01:27:44 Started transferring output files
+...
+040 (7186315.000.000) 08/23 01:27:44 Finished transferring output files
+...
+005 (7186315.000.000) 08/23 01:27:44 Job terminated.
+	(1) Normal termination (return value 50)
+		Usr 0 00:12:00, Sys 0 00:01:52  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:12:00, Sys 0 00:01:52  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	26766  -  Run Bytes Sent By Job
+	2770  -  Run Bytes Received By Job
+	26766  -  Total Bytes Sent By Job
+	2770  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated Assigned
+	   Cpus                 :      0.95        1         1 
+	   Disk (KB)            : 953574           3    325052 
+	   Gpus (Average)       :      0.04        1         1 "GPU-c25adc0c"
+	   GpusMemory (MB)      :   1985                       
+	   Memory (MB)          :   4961        2000      2000 
+
+	Job terminated of its own accord at 2024-08-22T23:27:44Z with exit-code 50.
+...

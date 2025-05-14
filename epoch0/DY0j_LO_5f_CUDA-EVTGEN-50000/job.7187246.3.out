@@ -1,0 +1,198 @@
+CPU Information:
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              16
+On-line CPU(s) list: 0-15
+Thread(s) per core:  1
+Core(s) per socket:  1
+Socket(s):           16
+NUMA node(s):        1
+Vendor ID:           AuthenticAMD
+CPU family:          25
+Model:               1
+Model name:          AMD EPYC 7313 16-Core Processor
+Stepping:            1
+CPU MHz:             3000.188
+BogoMIPS:            6000.37
+Virtualization:      AMD-V
+L1d cache:           64K
+L1i cache:           64K
+L2 cache:            512K
+L3 cache:            16384K
+NUMA node0 CPU(s):   0-15
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr wbnoinvd arat npt lbrv nrip_save tsc_scale vmcb_clean pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid arch_capabilities
+GPU Information:
+lspci command not found, unable to check GPU.
+System Architecture:
+x86_64
+Number of Threads:
+1
+Vectorization Support:
+Supported vectorization extensions: sse sse2 ssse3 sse4_1 sse4_2 avx avx2
+/srv/work
+%MSG-MG5 number of events requested = 50000
+%MSG-MG5 random seed used for the run = 1
+%MSG-MG5 number of cpus = 1
+%MSG-MG5 SCRAM_ARCH version = el8_amd64_gcc12
+%MSG-MG5 CMSSW version = CMSSW_14_0_9
+Running MG5_aMC for the 1 time
+produced_lhe  0 nevt  50000 submitting_event  50000  remaining_event  50000
+run.sh 50000 10
+Now generating 50000 events with random seed 10 and granularity 1
+************************************************************
+*                                                          *
+*                      W E L C O M E to                    *
+*             M A D G R A P H 5 _ a M C @ N L O            *
+*                      M A D E V E N T                     *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 3.5.3_lo_vect                            *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*                                                          *
+************************************************************
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+INFO: load configuration from /srv/work/mgbasedir/input/mg5_configuration.txt  
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+No valid eps viewer found. Please set in ./input/mg5_configuration.txt
+No valid web browser found. Please set in ./input/mg5_configuration.txt
+WRITE GRIDCARD /srv/work/process/madevent
+generate 50000 events
+P0_uux_epem
+P0_ddx_epem
+P0_uux_taptam
+P0_ddx_taptam
+Using random number seed offset = 10
+INFO: Generating 50000.0 unweighted events. 
+sum of cpu time of last step: 1m16s
+INFO: need to improve 8 channels 
+INFO: The following Floating Point Exceptions have been reported: FE_DIVBYZERO
+INFO: The following Floating Point Exceptions have been reported: FE_DIVBYZERO
+INFO: The following Floating Point Exceptions have been reported: FE_DIVBYZERO
+INFO: The following Floating Point Exceptions have been reported: FE_DIVBYZERO
+INFO: The following Floating Point Exceptions have been reported: FE_DIVBYZERO
+INFO: The following Floating Point Exceptions have been reported: FE_DIVBYZERO
+INFO: The following Floating Point Exceptions have been reported: FE_DIVBYZERO
+INFO: The following Floating Point Exceptions have been reported: FE_DIVBYZERO
+combine_events
+store_events
+  === Results Summary for run: GridRun_10 tag: tag_1 ===
+
+     Cross-section :   0 +- 0 pb
+     Nb of events :  50000
+ 
+decay_events -from_cards
+DONE
+write ./events.lhe.gz
+run 1 finished, total number of produced events: 50000/50000
+
+-rw-r--r--. 1 choij zh 5924329 Aug 26 18:10 events_1.lhe.gz
+run finished, produced number of events:
+50000
+/srv/work/process/madevent /srv/work
+************************************************************
+*                                                          *
+*                      W E L C O M E to                    *
+*             M A D G R A P H 5 _ a M C @ N L O            *
+*                      M A D E V E N T                     *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 3.5.3_lo_vect                            *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*                                                          *
+************************************************************
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+INFO: load configuration from /srv/work/mgbasedir/input/mg5_configuration.txt  
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+No valid eps viewer found. Please set in ./input/mg5_configuration.txt
+No valid web browser found. Please set in ./input/mg5_configuration.txt
+madevent>INFO: Running Systematics computation 
+INFO: # Events generated with PDF: NNPDF31_nnlo_as_0118_mc_hessian_pdfas (325300) 
+INFO: # Will Compute 926 weights per event. 
+INFO: # Currently at event 0 [elapsed time: 0.044 s] 
+INFO: # Currently at event 2500 [elapsed time: 30 s] 
+INFO: # Currently at event 5000 [elapsed time: 60 s] 
+INFO: # Currently at event 7500 [elapsed time: 89 s] 
+INFO: # Currently at event 10000 [elapsed time: 1.2e+02 s] 
+INFO: # Currently at event 12500 [elapsed time: 1.5e+02 s] 
+INFO: # Currently at event 15000 [elapsed time: 1.8e+02 s] 
+INFO: # Currently at event 17500 [elapsed time: 2.1e+02 s] 
+INFO: # Currently at event 20000 [elapsed time: 2.4e+02 s] 
+INFO: # Currently at event 22500 [elapsed time: 2.7e+02 s] 
+INFO: # Currently at event 25000 [elapsed time: 3e+02 s] 
+INFO: # Currently at event 27500 [elapsed time: 3.3e+02 s] 
+INFO: # Currently at event 30000 [elapsed time: 3.5e+02 s] 
+INFO: # Currently at event 32500 [elapsed time: 3.8e+02 s] 
+INFO: # Currently at event 35000 [elapsed time: 4.1e+02 s] 
+INFO: # Currently at event 37500 [elapsed time: 4.4e+02 s] 
+INFO: # Currently at event 40000 [elapsed time: 4.7e+02 s] 
+INFO: # Currently at event 42500 [elapsed time: 5e+02 s] 
+INFO: # Currently at event 45000 [elapsed time: 5.3e+02 s] 
+INFO: # Currently at event 47500 [elapsed time: 5.6e+02 s] 
+INFO: #***************************************************************************
+#
+# original cross-section: 5715.762999993296
+#     scale variation: +11.6% -12.6%
+#     emission scale variation: + 0% - 0%
+#     central scheme variation: +1.83e-10% -20.3%
+# PDF variation: +1.3% -1.3%
+#
+#PDF NNPDF31_nnlo_as_0118_mc: 5707.96 +0.707% -0.707%
+#PDF NNPDF31_nlo_hessian_pdfas: 5565.98 +1.33% -1.33%
+#PDF NNPDF40_nnlo_pdfas: 5784.28 +0.49% -0.49%
+#PDF NNPDF40_nnlo_hessian_pdfas: 5785.41 +0.496% -0.496%
+#PDF NNPDF40_nnlo_pch_as_01180: 5864.52 +0.462% -0.462%
+#PDF CT18NNLO: 5640.39 +1.7% -2.27%
+#PDF CT18ZNNLO: 5849.49 +1.87% -2.06%
+#PDF MSHT20nnlo_as118: 5681.4 +1.08% -1.4%
+#PDF PDF4LHC21_40_pdfas: 5686.12 +1.64% -1.64%
+#PDF HERAPDF20_NNLO_EIG: 5879.43 +1.16% -1.21%
+#PDF ABMP16als118_5_nnlo: 5702.57 +0.918% -0.918%
+# dynamical scheme # 1 : 5302.26 +13.1% -14.1% # \sum ET
+# dynamical scheme # 2 : 5303.72 +13.1% -14.1% # \sum\sqrt{m^2+pt^2}
+# dynamical scheme # 3 : 4557.74 +16.4% -17.4% # 0.5 \sum\sqrt{m^2+pt^2}
+# dynamical scheme # 4 : 5715.76 +11.6% -12.6% # \sqrt{\hat s}
+# PDF 263000 : 5400.867659906366
+#***************************************************************************
+ 
+INFO: End of systematics computation 
+madevent>INFO:  
+launch in debug mode
+/srv/work
+
+Run xml check
+Number of weights that are NaN:
+0
+All checks passed 
+
+total 1814524
+drwxr-xr-x. 17 choij zh       4096 Aug 26 18:08 CMSSW_14_0_9
+-rw-r--r--.  1 choij zh   37603840 Aug 26 18:08 DY0j_LO_5f_CUDA_el8_amd64_gcc12_CMSSW_14_0_9_tarball.tar.xz
+drwxr-xr-x.  2 choij zh        165 Aug 22 05:58 InputCards
+-rw-r--r--.  1 choij zh 1816512700 Aug 26 18:20 cmsgrid_final.lhe
+-rw-r--r--.  1 choij zh    1862597 Aug 26 18:20 evtgen.log
+-rw-r--r--.  1 choij zh      56888 Aug 22 05:58 gridpack_generation.log
+-rwxr-xr-x.  1 choij zh      11617 Aug 22 05:58 merge.pl
+drwxr-xr-x. 14 choij zh       4096 Aug 22 05:58 mgbasedir
+drwxr-xr-x.  3 choij zh         36 Aug 26 18:10 process
+-rwxr-xr-x.  1 choij zh       8025 Aug 26 18:09 runcmsgrid.sh

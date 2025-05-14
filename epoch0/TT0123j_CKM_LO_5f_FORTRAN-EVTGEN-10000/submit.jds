@@ -1,0 +1,12 @@
+universe                = vanilla
+jobbatchname            = EvtGen-TT0123j_CKM_LO_5f_FORTRAN
+executable              = evtgen.sh
+arguments               = $(ClusterId)$(ProcId)
+output                  = job.$(ClusterId).$(ProcId).out
+error                   = job.$(ClusterId).$(ProcId).err
+log                     = job.$(ClusterId).$(ProcId).log
+request_CPUs            = 1
+Requirements            = (TARGET.TotalCPUs == 48) || (TARGET.TotalCPUs == 64) || (TARGET.TotalCPUs == 80) || (TARGET.TotalCPUs == 128)
++MaxRuntime             = 2419200
++SingularityImage       = "/cvmfs/singularity.opensciencegrid.org/opensciencegrid/osgvo-el8:latest"
+queue 8

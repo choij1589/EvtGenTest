@@ -1,0 +1,48 @@
+000 (7216417.007.000) 09/16 07:43:55 Job submitted from host: <137.138.44.55:9618?addrs=137.138.44.55-9618+[2001-1458-d00-1a--48]-9618&alias=bigbird17.cern.ch&noUDP&sock=schedd_1980_b19c>
+...
+022 (7216417.007.000) 09/17 13:31:14 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_40@b9g23p2447.cern.ch <128.142.248.214:9618?addrs=128.142.248.214-9618+[2001-1458-301-73--100-d5]-9618&alias=b9g23p2447.cern.ch&noUDP&sock=startd_7869_0ed6>
+...
+023 (7216417.007.000) 09/17 14:02:06 Job reconnected to slot1_40@b9g23p2447.cern.ch
+    startd address: <128.142.248.214:9618?addrs=128.142.248.214-9618+[2001-1458-301-73--100-d5]-9618&alias=b9g23p2447.cern.ch&noUDP&sock=startd_7869_0ed6>
+    starter address: <128.142.248.214:9618?addrs=128.142.248.214-9618+[2001-1458-301-73--100-d5]-9618&alias=b9g23p2447.cern.ch&noUDP&sock=slot1_40_1211864_9179_14482>
+...
+022 (7216417.007.000) 09/26 17:54:01 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_40@b9g23p2447.cern.ch <128.142.248.214:9618?addrs=128.142.248.214-9618+[2001-1458-301-73--100-d5]-9618&alias=b9g23p2447.cern.ch&noUDP&sock=startd_7869_0ed6>
+...
+023 (7216417.007.000) 09/26 17:54:43 Job reconnected to slot1_40@b9g23p2447.cern.ch
+    startd address: <128.142.248.214:9618?addrs=128.142.248.214-9618+[2001-1458-301-73--100-d5]-9618&alias=b9g23p2447.cern.ch&noUDP&sock=startd_7869_0ed6>
+    starter address: <128.142.248.214:9618?addrs=128.142.248.214-9618+[2001-1458-301-73--100-d5]-9618&alias=b9g23p2447.cern.ch&noUDP&sock=slot1_40_1211864_9179_14482>
+...
+040 (7216417.007.000) 09/28 03:45:33 Started transferring input files
+	Transferring to host: <128.142.248.218:9618?addrs=128.142.248.218-9618+[2001-1458-301-73--100-d9]-9618&alias=b9g23p2883.cern.ch&noUDP&sock=slot1_54_1412154_fe0a_33093>
+...
+040 (7216417.007.000) 09/28 03:45:33 Finished transferring input files
+...
+001 (7216417.007.000) 09/28 03:45:34 Job executing on host: <128.142.248.218:9618?addrs=128.142.248.218-9618+[2001-1458-301-73--100-d9]-9618&alias=b9g23p2883.cern.ch&noUDP&sock=startd_1412115_0387>
+	SlotName: slot1_54@b9g23p2883.cern.ch
+	CondorScratchDir = "/pool/condor/dir_3718064"
+	Cpus = 1
+	Disk = 6025909
+	Memory = 2000
+...
+040 (7216417.007.000) 10/02 17:26:28 Started transferring output files
+...
+040 (7216417.007.000) 10/02 17:26:28 Finished transferring output files
+...
+004 (7216417.007.000) 10/02 17:26:28 Job was evicted.
+	(0) CPU times
+		Usr 4 08:42:47, Sys 0 00:30:51  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	107993  -  Run Bytes Sent By Job
+	2969  -  Run Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.00        1         1 
+	   Disk (KB)            : 1552131     2000000   6025909 
+	   Memory (MB)          :     733        2000      2000 
+...
+009 (7216417.007.000) 10/02 17:26:28 Job was aborted.
+	via condor_rm (by user choij)
+...

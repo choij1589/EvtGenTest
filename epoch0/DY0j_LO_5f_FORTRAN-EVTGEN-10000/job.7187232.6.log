@@ -1,0 +1,43 @@
+000 (7187232.006.000) 08/26 07:54:56 Job submitted from host: <137.138.44.55:9618?addrs=137.138.44.55-9618+[2001-1458-d00-1a--48]-9618&alias=bigbird17.cern.ch&noUDP&sock=schedd_23962_8474>
+...
+040 (7187232.006.000) 08/26 08:01:42 Started transferring input files
+	Transferring to host: <128.142.248.214:9618?addrs=128.142.248.214-9618+[2001-1458-301-73--100-d5]-9618&alias=b9g23p2447.cern.ch&noUDP&sock=slot1_8_2572410_4e57_23071>
+...
+040 (7187232.006.000) 08/26 08:01:42 Finished transferring input files
+...
+001 (7187232.006.000) 08/26 08:01:43 Job executing on host: <128.142.248.214:9618?addrs=128.142.248.214-9618+[2001-1458-301-73--100-d5]-9618&alias=b9g23p2447.cern.ch&noUDP&sock=startd_3197_745e>
+	SlotName: slot1_8@b9g23p2447.cern.ch
+	CondorScratchDir = "/pool/condor/dir_40687"
+	Cpus = 1
+	Disk = 2963626
+	Memory = 2000
+...
+006 (7187232.006.000) 08/26 08:01:52 Image size of job updated: 460036
+	278  -  MemoryUsage of job (MB)
+	284516  -  ResidentSetSize of job (KB)
+...
+006 (7187232.006.000) 08/26 08:06:24 Image size of job updated: 4067812
+	851  -  MemoryUsage of job (MB)
+	870488  -  ResidentSetSize of job (KB)
+...
+040 (7187232.006.000) 08/26 08:06:24 Started transferring output files
+...
+040 (7187232.006.000) 08/26 08:06:24 Finished transferring output files
+...
+005 (7187232.006.000) 08/26 08:06:24 Job terminated.
+	(1) Normal termination (return value 50)
+		Usr 0 00:04:22, Sys 0 00:00:11  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:04:22, Sys 0 00:00:11  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	15604  -  Run Bytes Sent By Job
+	2930  -  Run Bytes Received By Job
+	15604  -  Total Bytes Sent By Job
+	2930  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :   473740        3   2963626 
+	   Memory (MB)          :      851     2000      2000 
+
+	Job terminated of its own accord at 2024-08-26T06:06:24Z with exit-code 50.
+...

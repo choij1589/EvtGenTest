@@ -1,0 +1,80 @@
+000 (7223585.004.000) 09/25 06:45:55 Job submitted from host: <137.138.44.55:9618?addrs=137.138.44.55-9618+[2001-1458-d00-1a--48]-9618&alias=bigbird17.cern.ch&noUDP&sock=schedd_1981_6134>
+...
+040 (7223585.004.000) 09/25 16:31:51 Started transferring input files
+	Transferring to host: <188.185.238.11:9618?addrs=188.185.238.11-9618+[2001-1458-303-28--100-7]-9618&alias=b9pgpun003.cern.ch&noUDP&sock=slot1_2_818830_8f4b_30923>
+...
+040 (7223585.004.000) 09/25 16:31:51 Finished transferring input files
+...
+001 (7223585.004.000) 09/25 16:31:52 Job executing on host: <188.185.238.11:9618?addrs=188.185.238.11-9618+[2001-1458-303-28--100-7]-9618&alias=b9pgpun003.cern.ch&noUDP&sock=startd_217080_670c>
+	SlotName: slot1_2@b9pgpun003.cern.ch
+	AvailableGPUs = { GPUs_GPU_961f99a9 }
+	CondorScratchDir = "/pool/condor/dir_3045600"
+	Cpus = 1
+	Disk = 6829688
+	GPUs = 1
+	GPUs_GPU_961f99a9 = [ GlobalMemoryMb = 95235; MaxSupportedVersion = 12040; DriverVersion = 12.4; DeviceName = "NVIDIA H100 NVL"; CoresPerCU = 128; ECCEnabled = true; ComputeUnits = 132; ClockMhz = 1785.0; Id = "GPU-961f99a9"; Capability = 9.0; DevicePciBusId = "0000:3B:00.0"; DeviceUuid = "961f99a9-cffc-9470-1648-488d58df1923" ]
+	Memory = 2000
+...
+006 (7223585.004.000) 09/25 16:32:01 Image size of job updated: 2899508
+	2832  -  MemoryUsage of job (MB)
+	2899500  -  ResidentSetSize of job (KB)
+...
+006 (7223585.004.000) 09/25 16:37:03 Image size of job updated: 21605140
+	21094  -  MemoryUsage of job (MB)
+	21599756  -  ResidentSetSize of job (KB)
+...
+006 (7223585.004.000) 09/25 16:42:03 Image size of job updated: 21690744
+	21178  -  MemoryUsage of job (MB)
+	21685504  -  ResidentSetSize of job (KB)
+...
+006 (7223585.004.000) 09/25 16:47:02 Image size of job updated: 21783928
+	21263  -  MemoryUsage of job (MB)
+	21772376  -  ResidentSetSize of job (KB)
+...
+006 (7223585.004.000) 09/25 16:52:02 Image size of job updated: 21872664
+	21354  -  MemoryUsage of job (MB)
+	21866388  -  ResidentSetSize of job (KB)
+...
+006 (7223585.004.000) 09/25 16:57:03 Image size of job updated: 21992740
+	21461  -  MemoryUsage of job (MB)
+	21975384  -  ResidentSetSize of job (KB)
+...
+006 (7223585.004.000) 09/25 17:02:04 Image size of job updated: 22271648
+	21744  -  MemoryUsage of job (MB)
+	22265692  -  ResidentSetSize of job (KB)
+...
+006 (7223585.004.000) 09/25 17:07:05 Image size of job updated: 22395784
+	21855  -  MemoryUsage of job (MB)
+	22378576  -  ResidentSetSize of job (KB)
+...
+006 (7223585.004.000) 09/25 17:12:06 Image size of job updated: 25705480
+	25104  -  MemoryUsage of job (MB)
+	25705480  -  ResidentSetSize of job (KB)
+...
+006 (7223585.004.000) 09/25 17:12:34 Image size of job updated: 25803340
+	25106  -  MemoryUsage of job (MB)
+	25708296  -  ResidentSetSize of job (KB)
+...
+040 (7223585.004.000) 09/25 17:12:35 Started transferring output files
+...
+040 (7223585.004.000) 09/25 17:12:35 Finished transferring output files
+...
+005 (7223585.004.000) 09/25 17:12:36 Job terminated.
+	(1) Normal termination (return value 50)
+		Usr 0 00:39:37, Sys 0 00:13:59  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:39:37, Sys 0 00:13:59  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	149246  -  Run Bytes Sent By Job
+	1403  -  Run Bytes Received By Job
+	149246  -  Total Bytes Sent By Job
+	1403  -  Total Bytes Received By Job
+	Partitionable Resources :       Usage  Request Allocated Assigned
+	   Cpus                 :        0.00        1         1 
+	   Disk (KB)            : 20701535           2   6829688 
+	   Gpus (Average)       :        0.00        1         1 "GPU-961f99a9"
+	   GpusMemory (MB)      :      599                       
+	   Memory (MB)          :    25106        2000      2000 
+
+	Job terminated of its own accord at 2024-09-25T15:12:34Z with exit-code 50.
+...

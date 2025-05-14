@@ -1,0 +1,44 @@
+000 (7216718.003.000) 09/18 03:05:30 Job submitted from host: <137.138.44.55:9618?addrs=137.138.44.55-9618+[2001-1458-d00-1a--48]-9618&alias=bigbird17.cern.ch&noUDP&sock=schedd_1981_6134>
+...
+040 (7216718.003.000) 09/18 04:02:34 Started transferring input files
+	Transferring to host: <128.142.248.123:9618?addrs=128.142.248.123-9618+[2001-1458-301-73--100-16b]-9618&alias=b9g23p2657.cern.ch&noUDP&sock=slot1_44_443391_d207_18862>
+...
+040 (7216718.003.000) 09/18 04:02:34 Finished transferring input files
+...
+001 (7216718.003.000) 09/18 04:02:35 Job executing on host: <128.142.248.123:9618?addrs=128.142.248.123-9618+[2001-1458-301-73--100-16b]-9618&alias=b9g23p2657.cern.ch&noUDP&sock=startd_7091_6a27>
+	SlotName: slot1_44@b9g23p2657.cern.ch
+	CondorScratchDir = "/pool/condor/dir_428607"
+	Cpus = 1
+	Disk = 3081269
+	Memory = 2000
+...
+006 (7216718.003.000) 09/18 04:02:44 Image size of job updated: 492464
+	481  -  MemoryUsage of job (MB)
+	492464  -  ResidentSetSize of job (KB)
+...
+006 (7216718.003.000) 09/18 04:07:44 Image size of job updated: 898108
+	632  -  MemoryUsage of job (MB)
+	646924  -  ResidentSetSize of job (KB)
+...
+022 (7216718.003.000) 09/26 17:54:01 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_44@b9g23p2657.cern.ch <128.142.248.123:9618?addrs=128.142.248.123-9618+[2001-1458-301-73--100-16b]-9618&alias=b9g23p2657.cern.ch&noUDP&sock=startd_7091_6a27>
+...
+023 (7216718.003.000) 09/26 17:54:48 Job reconnected to slot1_44@b9g23p2657.cern.ch
+    startd address: <128.142.248.123:9618?addrs=128.142.248.123-9618+[2001-1458-301-73--100-16b]-9618&alias=b9g23p2657.cern.ch&noUDP&sock=startd_7091_6a27>
+    starter address: <128.142.248.123:9618?addrs=128.142.248.123-9618+[2001-1458-301-73--100-16b]-9618&alias=b9g23p2657.cern.ch&noUDP&sock=slot1_44_443391_d207_18862>
+...
+004 (7216718.003.000) 10/02 17:26:41 Job was evicted.
+	(0) CPU times
+		Usr 14 04:52:14, Sys 0 00:48:47  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	7971  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       1.00        1         1 
+	   Disk (KB)            : 1280372     1280372   3081269 
+	   Memory (MB)          :     733        2000      2000 
+...
+009 (7216718.003.000) 10/02 17:26:41 Job was aborted.
+	via condor_rm (by user choij)
+...

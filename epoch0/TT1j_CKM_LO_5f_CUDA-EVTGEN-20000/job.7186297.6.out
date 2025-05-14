@@ -1,0 +1,186 @@
+CPU Information:
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              16
+On-line CPU(s) list: 0-15
+Thread(s) per core:  1
+Core(s) per socket:  1
+Socket(s):           16
+NUMA node(s):        1
+Vendor ID:           AuthenticAMD
+CPU family:          25
+Model:               1
+Model name:          AMD EPYC 7313 16-Core Processor
+Stepping:            1
+CPU MHz:             3000.189
+BogoMIPS:            6000.37
+Virtualization:      AMD-V
+L1d cache:           64K
+L1i cache:           64K
+L2 cache:            512K
+L3 cache:            16384K
+NUMA node0 CPU(s):   0-15
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw perfctr_core invpcid_single ssbd ibrs ibpb stibp vmmcall fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr wbnoinvd arat npt lbrv nrip_save tsc_scale vmcb_clean pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid arch_capabilities
+GPU Information:
+lspci command not found, unable to check GPU.
+System Architecture:
+x86_64
+Number of Threads:
+1
+Vectorization Support:
+Supported vectorization extensions: sse sse2 ssse3 sse4_1 sse4_2 avx avx2
+/srv/work
+%MSG-MG5 number of events requested = 20000
+%MSG-MG5 random seed used for the run = 1
+%MSG-MG5 number of cpus = 1
+%MSG-MG5 SCRAM_ARCH version = el8_amd64_gcc12
+%MSG-MG5 CMSSW version = CMSSW_14_0_9
+Running MG5_aMC for the 1 time
+produced_lhe  0 nevt  20000 submitting_event  20000  remaining_event  20000
+run.sh 20000 10
+Now generating 20000 events with random seed 10 and granularity 1
+************************************************************
+*                                                          *
+*                      W E L C O M E to                    *
+*             M A D G R A P H 5 _ a M C @ N L O            *
+*                      M A D E V E N T                     *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 3.5.3_lo_vect                            *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*                                                          *
+************************************************************
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+INFO: load configuration from /srv/work/mgbasedir/input/mg5_configuration.txt  
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+No valid eps viewer found. Please set in ./input/mg5_configuration.txt
+No valid web browser found. Please set in ./input/mg5_configuration.txt
+WRITE GRIDCARD /srv/work/process/madevent
+generate 20000 events
+[1;34mThe parameter ptonium is not supported anymore. This parameter will be ignored.[0m
+[1;34mThe parameter etaonium is not supported anymore. This parameter will be ignored.[0m
+P0_gg_ttxg
+P0_gu_ttxu
+P0_gux_ttxux
+P0_uux_ttxg
+Using random number seed offset = 10
+INFO: Generating 20000.0 unweighted events. 
+sum of cpu time of last step: 7m18s
+INFO: need to improve 21 channels 
+combine_events
+[1;34mThe parameter ptonium is not supported anymore. This parameter will be ignored.[0m
+[1;34mThe parameter etaonium is not supported anymore. This parameter will be ignored.[0m
+store_events
+  === Results Summary for run: GridRun_10 tag: tag_1 ===
+
+     Cross-section :   0 +- 0 pb
+     Nb of events :  20000
+ 
+decay_events -from_cards
+DONE
+write ./events.lhe.gz
+run 1 finished, total number of produced events: 20000/20000
+
+-rw-r--r--. 1 choij zh 3671374 Aug 22 23:09 events_1.lhe.gz
+run finished, produced number of events:
+20000
+/srv/work/process/madevent /srv/work
+************************************************************
+*                                                          *
+*                      W E L C O M E to                    *
+*             M A D G R A P H 5 _ a M C @ N L O            *
+*                      M A D E V E N T                     *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 3.5.3_lo_vect                            *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*                                                          *
+************************************************************
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+INFO: load configuration from /srv/work/mgbasedir/input/mg5_configuration.txt  
+INFO: load configuration from /srv/work/process/madevent/Cards/me5_configuration.txt  
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+No valid eps viewer found. Please set in ./input/mg5_configuration.txt
+No valid web browser found. Please set in ./input/mg5_configuration.txt
+madevent>INFO: Running Systematics computation 
+[1;34mThe parameter ptonium is not supported anymore. This parameter will be ignored.[0m
+[1;34mThe parameter etaonium is not supported anymore. This parameter will be ignored.[0m
+[1;34mThe parameter ptonium is not supported anymore. This parameter will be ignored.[0m
+[1;34mThe parameter etaonium is not supported anymore. This parameter will be ignored.[0m
+INFO: # Events generated with PDF: NNPDF31_nnlo_as_0118_mc_hessian_pdfas (325300) 
+INFO: # Will Compute 926 weights per event. 
+INFO: # Currently at event 0 [elapsed time: 0.046 s] 
+INFO: # Currently at event 2500 [elapsed time: 48 s] 
+INFO: # Currently at event 5000 [elapsed time: 95 s] 
+INFO: # Currently at event 7500 [elapsed time: 1.4e+02 s] 
+INFO: # Currently at event 10000 [elapsed time: 1.9e+02 s] 
+INFO: # Currently at event 12500 [elapsed time: 2.4e+02 s] 
+INFO: # Currently at event 15000 [elapsed time: 2.9e+02 s] 
+INFO: # Currently at event 17500 [elapsed time: 3.3e+02 s] 
+INFO: #***************************************************************************
+#
+# original cross-section: 939.0146000003832
+#     scale variation: +29.3% -21.1%
+#     emission scale variation: +17.9% -13.1%
+#     central scheme variation: + 0% -34.4%
+# PDF variation: +4.63% -4.63%
+#
+#PDF NNPDF31_nnlo_as_0118_mc: 937.084 +1.72% -1.72%
+#PDF NNPDF31_nlo_hessian_pdfas: 961.111 +4.51% -4.51%
+#PDF NNPDF40_nnlo_pdfas: 917.881 +2.54% -2.54%
+#PDF NNPDF40_nnlo_hessian_pdfas: 917.092 +2.54% -2.54%
+#PDF NNPDF40_nnlo_pch_as_01180: 919.059 +0.715% -0.715%
+#PDF CT18NNLO: 960.294 +3.13% -2.31%
+#PDF CT18ZNNLO: 931.382 +2.58% -2.73%
+#PDF MSHT20nnlo_as118: 953.175 +2.7% -1.67%
+#PDF PDF4LHC21_40_pdfas: 954.325 +3.52% -3.52%
+#PDF HERAPDF20_NNLO_EIG: 913.817 +1.04% -3.85%
+#PDF ABMP16als118_5_nnlo: 922 +1.9% -1.9%
+# dynamical scheme # 1 : 783.27 +27.3% -20.2% # \sum ET
+# dynamical scheme # 2 : 692.609 +26.2% -19.6% # \sum\sqrt{m^2+pt^2}
+# dynamical scheme # 3 : 874.092 +28.4% -20.8% # 0.5 \sum\sqrt{m^2+pt^2}
+# dynamical scheme # 4 : 616.442 +25.1% -18.9% # \sqrt{\hat s}
+# PDF 263000 : 1134.140877925912
+#***************************************************************************
+ 
+INFO: End of systematics computation 
+madevent>INFO:  
+launch in debug mode
+/srv/work
+
+Run xml check
+Number of weights that are NaN:
+0
+All checks passed 
+
+total 755940
+drwxr-xr-x. 17 choij zh      4096 Aug 22 23:07 CMSSW_14_0_9
+drwxr-xr-x.  2 choij zh       133 Aug 19 07:48 InputCards
+-rw-r--r--.  1 choij zh  38175976 Aug 22 23:07 TT1j_CKM_LO_5f_CUDA_el8_amd64_gcc12_CMSSW_14_0_9_tarball.tar.xz
+-rw-r--r--.  1 choij zh 731953876 Aug 22 23:16 cmsgrid_final.lhe
+-rw-r--r--.  1 choij zh   1862525 Aug 22 23:16 evtgen.log
+-rw-r--r--.  1 choij zh     53108 Aug 19 07:48 gridpack_generation.log
+-rwxr-xr-x.  1 choij zh     11617 Aug 19 07:48 merge.pl
+drwxr-xr-x. 14 choij zh      4096 Aug 19 07:48 mgbasedir
+drwxr-xr-x.  3 choij zh        36 Aug 22 23:09 process
+-rwxr-xr-x.  1 choij zh      8025 Aug 22 23:07 runcmsgrid.sh

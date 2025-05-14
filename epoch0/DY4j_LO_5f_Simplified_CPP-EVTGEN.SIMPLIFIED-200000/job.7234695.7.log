@@ -1,0 +1,40 @@
+000 (7234695.007.000) 10/04 05:18:50 Job submitted from host: <137.138.44.55:9618?addrs=137.138.44.55-9618+[2001-1458-d00-1a--48]-9618&alias=bigbird17.cern.ch&noUDP&sock=schedd_1981_6134>
+...
+040 (7234695.007.000) 10/05 01:53:09 Started transferring input files
+	Transferring to host: <128.142.248.94:9618?addrs=128.142.248.94-9618+[2001-1458-301-73--100-14e]-9618&alias=b9g23p2790.cern.ch&noUDP&sock=slot1_2_3359_7822_34906>
+...
+040 (7234695.007.000) 10/05 01:53:09 Finished transferring input files
+...
+001 (7234695.007.000) 10/05 01:53:10 Job executing on host: <128.142.248.94:9618?addrs=128.142.248.94-9618+[2001-1458-301-73--100-14e]-9618&alias=b9g23p2790.cern.ch&noUDP&sock=startd_3310_f691>
+	SlotName: slot1_2@b9g23p2790.cern.ch
+	CondorScratchDir = "/pool/condor/dir_2152184"
+	Cpus = 1
+	Disk = 2952905
+	Memory = 2000
+...
+006 (7234695.007.000) 10/05 01:53:18 Image size of job updated: 773408
+	756  -  MemoryUsage of job (MB)
+	773384  -  ResidentSetSize of job (KB)
+...
+006 (7234695.007.000) 10/05 01:58:18 Image size of job updated: 904948
+	758  -  MemoryUsage of job (MB)
+	775320  -  ResidentSetSize of job (KB)
+...
+040 (7234695.007.000) 10/11 16:16:53 Started transferring output files
+...
+040 (7234695.007.000) 10/11 16:16:53 Finished transferring output files
+...
+004 (7234695.007.000) 10/11 16:16:54 Job was evicted.
+	(0) CPU times
+		Usr 6 03:20:19, Sys 0 00:19:58  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	107993  -  Run Bytes Sent By Job
+	2406  -  Run Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.85        1         1 
+	   Disk (KB)            : 1552129           3   2952905 
+	   Memory (MB)          :     758        2000      2000 
+...
+009 (7234695.007.000) 10/11 16:16:54 Job was aborted.
+	via condor_rm (by user choij)
+...
